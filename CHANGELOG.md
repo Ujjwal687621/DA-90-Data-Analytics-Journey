@@ -1,5 +1,16 @@
 # Changelog
 
+## Day 4 - SQL JOINs & Business Reporting
+- Inserted realistic transaction dataset.
+- Learned INNER JOIN.
+- Learned LEFT JOIN.
+- Learned HAVING.
+- Learned COALESCE().
+- Built customer spending reports.
+- Built country spending reports.
+- Included customers with no transactions.
+- Expanded Ujjsha Financial Technologies relational database.
+
 ## Day 3
 - Initialized Git repository
 - Published project to GitHub
