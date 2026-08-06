@@ -1,5 +1,14 @@
 # Changelog
 
+## Day 5 - Business Reporting & Window Functions
+
+- Implemented SQL CASE statements for customer segmentation.
+- Learned ROW_NUMBER() and PARTITION BY.
+- Solved five business reporting tickets.
+- Practiced choosing appropriate JOIN types.
+- Strengthened understanding of WHERE vs HAVING.
+- Introduced analytical ranking concepts.
+
 ## Day 4 - SQL JOINs & Business Reporting
 - Inserted realistic transaction dataset.
 - Learned INNER JOIN.
