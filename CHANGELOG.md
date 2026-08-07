@@ -1,5 +1,14 @@
 # Changelog
 
+## Day 6 - CTEs & SQL Assessment
+
+- Learned Common Table Expressions (CTEs).
+- Solved five business reporting tickets.
+- Introduced NULLIF() for defensive SQL programming.
+- Practiced ROW_NUMBER() with PARTITION BY.
+- Learned the difference between COUNT(*) and COUNT(column) in LEFT JOIN scenarios.
+- Completed first SQL assessment (49/50).
+
 ## Day 5 - Business Reporting & Window Functions
 
 - Implemented SQL CASE statements for customer segmentation.
