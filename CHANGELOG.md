@@ -1,5 +1,14 @@
 # Changelog
 
+## Day 7 - Introduction to Subqueries
+
+- Learned scalar subqueries.
+- Learned list subqueries using IN and NOT IN.
+- Compared subqueries with CTEs.
+- Reviewed WHERE versus HAVING.
+- Solved first scalar subquery.
+- Began solving customer spending versus average customer spending business problem.
+
 ## Day 6 - CTEs & SQL Assessment
 
 - Learned Common Table Expressions (CTEs).
