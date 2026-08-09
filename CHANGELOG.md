@@ -1,5 +1,13 @@
 # Changelog
 
+## Day 8
+
+- Temporary-table approach to solving SQL problems
+- Multi-level aggregation
+- Reading nested SQL from the inside out
+- CTEs and Subqueries as equivalent logical approaches
+- Business-first SQL problem solving
+
 ## Day 7 - Introduction to Subqueries
 
 - Learned scalar subqueries.
