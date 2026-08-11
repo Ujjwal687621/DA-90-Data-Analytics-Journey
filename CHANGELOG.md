@@ -1,5 +1,26 @@
 # Changelog
 
+## Day 9
+
+- Customer Summary CTE
+- Country Average CTE
+- Country Ranking CTE
+- Complete analytical pipeline for loyal customer identification
+- Practice with ROW_NUMBER() and PARTITION BY
+- Comparison of CROSS JOIN, INNER JOIN and LEFT JOIN
+- Business-first SQL solution design process
+
+### Improved
+
+- Stronger understanding of dataset grain
+- Better CTE design skills
+- Improved analytical thinking before coding
+- More confidence explaining SQL design decisions
+
+### Key Milestone
+
+Successfully designed a complete multi-CTE analytical solution from business requirements before writing SQL.
+
 ## Day 8
 
 - Temporary-table approach to solving SQL problems
