@@ -1,3 +1,19 @@
+## Day 10 ✅
+
+Today's focus shifted toward independent business problem solving.
+
+Key achievements:
+
+- Designed the solution before writing SQL.
+- Built a reusable multi-CTE analytical pipeline.
+- Applied window functions to rank customers within each country.
+- Reviewed SQL using production code review principles.
+- Validated the final solution against business requirements.
+
+Major milestone:
+
+Completed the first full analytical business ticket independently with only code review feedback.
+
 ## Day 9 ✅
 
 Today's focus shifted from learning SQL syntax to designing analytical solutions.
