@@ -1,5 +1,23 @@
 # Changelog
 
+## Day 11 - Emerging Customers
+
+### Added
+
+- New Emerging Customer business scenario.
+- Multi-CTE architecture.
+- Country average spending calculation.
+- Customer ranking by country.
+- Business rule filtering.
+
+### Learned
+
+- Designing SQL before writing code.
+- Importance of dataset grain.
+- Reusable CTE architecture.
+- LEFT JOIN vs INNER JOIN decision making.
+- Building maintainable SQL solutions.
+
 ## Day 10
 
 ### Added

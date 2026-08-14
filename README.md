@@ -1,3 +1,33 @@
+## Day 11 – Emerging Customers
+
+Today's challenge focused on identifying **Emerging Customers** for the Marketing team using reusable SQL architecture.
+
+### Business Scenario
+
+The Marketing team wanted to identify customers who are showing strong purchasing behavior but are not yet the highest spender in their country.
+
+### Concepts Practiced
+
+- Business Requirement Analysis
+- Data Flow Design
+- CTE Architecture
+- Aggregate Functions
+- Window Functions
+- ROW_NUMBER()
+- PARTITION BY
+- LEFT JOIN vs INNER JOIN
+- Business Logic Filtering
+- Query Maintainability
+
+### Key Takeaways
+
+- Designed the solution before writing SQL.
+- Reinforced the importance of dataset grain.
+- Reused customer-level datasets for multiple business calculations.
+- Learned to justify SQL design decisions based on business requirements rather than syntax alone.
+
+**Status:** ✅ Completed
+
 ## Day 10 ✅
 
 Today's focus shifted toward independent business problem solving.
