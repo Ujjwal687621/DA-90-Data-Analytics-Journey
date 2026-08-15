@@ -1,3 +1,32 @@
+## Day 12 – Inventory Analytics Database Design
+
+Today I began Phase 2 of my Data Analytics Journey by transitioning from Banking Analytics to Inventory Analytics.
+
+Instead of immediately solving SQL business problems, I focused on understanding how a new database is designed.
+
+### Topics Covered
+
+- Database Design
+- Primary Keys
+- Foreign Keys
+- One-to-Many Relationships
+- Database Schema Planning
+- Table Relationships
+- Thinking Before Writing JOINs
+
+### New Database
+
+- Suppliers
+- Products
+- Inventory
+- Sales
+
+### Key Takeaway
+
+Before writing analytical SQL, it is important to understand how the data is structured and how tables relate to one another.
+
+**Status:** ✅ Completed
+
 ## Day 11 – Emerging Customers
 
 Today's challenge focused on identifying **Emerging Customers** for the Marketing team using reusable SQL architecture.

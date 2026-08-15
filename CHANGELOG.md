@@ -1,5 +1,21 @@
 # Changelog
 
+## Day 12 - Inventory Analytics Database Design
+
+### Added
+
+- Created Inventory Analytics database schema.
+- Designed Suppliers, Products, Inventory and Sales tables.
+- Established foreign key relationships.
+- Introduced one-to-many relationship concepts.
+
+### Learned
+
+- Why table creation order matters.
+- How foreign keys enforce referential integrity.
+- How to identify table relationships before writing JOINs.
+- How experienced analysts approach unfamiliar databases.
+
 ## Day 11 - Emerging Customers
 
 ### Added
