@@ -1,5 +1,33 @@
 # Changelog
 
+
+## Day 13 - Python Data Generation & PostgreSQL Integration
+
+### Added
+
+- Added `06_InventoryAnalytics/generate_data.py`.
+- Added Python-based supplier data generation.
+- Added PostgreSQL connectivity using psycopg2.
+- Added automated supplier insertion into PostgreSQL.
+- Added 10 supplier records to the Inventory Analytics database.
+
+### Learned
+
+- Python variables, lists, tuples, and loops.
+- Using range() and append().
+- Connecting Python to PostgreSQL.
+- Using database cursors.
+- Executing parameterized SQL.
+- Committing database transactions.
+- Managing database connections.
+- Maintaining valid foreign-key relationships during data generation.
+
+### Next
+
+- Generate 25 products.
+- Assign products to valid suppliers.
+- Insert products into PostgreSQL.
+  
 ## Day 12 - Inventory Analytics Database Design
 
 ### Added

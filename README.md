@@ -1,3 +1,48 @@
+## Day 13 – Python Data Generation & PostgreSQL Integration
+
+Today I introduced Python into the Inventory Analytics project to automate data generation and loading into PostgreSQL.
+
+### Topics Covered
+
+- Python Variables
+- Python Lists
+- Python Tuples
+- For Loops
+- range()
+- append()
+- psycopg2
+- PostgreSQL Connections
+- Database Cursors
+- Parameterized SQL
+- Transaction Commit
+- Automated Data Insertion
+- Foreign Key Dependencies
+
+### Completed
+
+- Installed and verified psycopg2.
+- Connected Python successfully to PostgreSQL.
+- Created a Python data-generation workflow.
+- Generated 10 supplier records.
+- Automatically inserted all 10 suppliers into PostgreSQL.
+- Verified the supplier data in the database.
+
+### Key Takeaway
+
+Python can automate repetitive database operations and make data-generation workflows more scalable and maintainable.
+
+### Inventory Data Pipeline
+
+Suppliers
+↓
+Products
+↓
+Inventory
+↓
+Sales
+
+**Status:** ✅ Completed
+
 ## Day 12 – Inventory Analytics Database Design
 
 Today I began Phase 2 of my Data Analytics Journey by transitioning from Banking Analytics to Inventory Analytics.
