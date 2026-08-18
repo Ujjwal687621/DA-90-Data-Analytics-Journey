@@ -1,3 +1,43 @@
+## Day 14 – Inventory Product Data Generation
+
+Today I continued the Inventory Analytics project by generating and loading product data using Python and PostgreSQL.
+
+### Completed
+
+- Created 25 unique products.
+- Created five product categories.
+- Implemented category-specific pricing.
+- Assigned products to valid suppliers.
+- Ensured every supplier received at least one product.
+- Validated the generated product dataset.
+- Loaded 25 products into PostgreSQL.
+- Validated the Product → Supplier relationship using SQL JOIN.
+
+### Python Concepts
+
+- Lists
+- Tuples
+- Dictionaries
+- For loops
+- range()
+- random.choice()
+- random.randint()
+- random.uniform()
+- append()
+
+### Database Status
+
+Suppliers → 10 records  
+Products → 25 records  
+Inventory → Not populated  
+Sales → Not populated
+
+### Key Takeaway
+
+Realistic data generation requires business rules and validation rather than simply generating random values.
+
+**Status:** ✅ Completed
+
 ## Day 13 – Python Data Generation & PostgreSQL Integration
 
 Today I introduced Python into the Inventory Analytics project to automate data generation and loading into PostgreSQL.

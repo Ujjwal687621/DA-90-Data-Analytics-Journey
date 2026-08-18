@@ -1,6 +1,39 @@
 # Changelog
 
+## Day 14 - Inventory Product Data Generation
 
+### Added
+
+- Added product-generation logic to the Inventory Analytics data generator.
+- Added five product categories.
+- Added 25 unique products.
+- Added category-specific pricing ranges.
+- Added supplier assignment logic.
+- Added product data validation.
+- Loaded 25 products into PostgreSQL.
+
+### Learned
+
+- Generating unique product records.
+- Using dictionaries to organize data by category.
+- Generating realistic random values.
+- Maintaining valid foreign-key relationships.
+- Validating generated data before database insertion.
+- Using SQL JOINs to validate relational data.
+
+### Database Progress
+
+- Suppliers: 10 records
+- Products: 25 records
+- Inventory: Pending
+- Sales: Pending
+
+### Next
+
+- Generate inventory records.
+- Validate inventory data.
+- Load inventory data into PostgreSQL.
+  
 ## Day 13 - Python Data Generation & PostgreSQL Integration
 
 ### Added
