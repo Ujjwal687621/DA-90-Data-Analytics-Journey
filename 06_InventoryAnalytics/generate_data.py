@@ -183,31 +183,260 @@ print("Database connection successful!")
 # INSERT PRODUCTS
 # ==================================================
 
-cursor = connection.cursor()
+#cursor = connection.cursor()
 
-for product in products:
-    cursor.execute("""
-        INSERT INTO products
-            (
-                product_id,
-                product_name,
-                category,
-                supplier_id,
-                unit_price
-            )
-        VALUES (%s, %s, %s, %s, %s)
-    """, product)
+#for product in products:
+#    cursor.execute("""
+#        INSERT INTO products
+#            (
+#                product_id,
+#                product_name,
+ #               category,
+ #               supplier_id,
+#                unit_price
+#            )
+#        VALUES (%s, %s, %s, %s, %s)
+##    """, product)
 
 connection.commit()
 
-print("All products inserted successfully!")
+#print("All products inserted successfully!")
+
+# ==================================================
+# INVENTORY DATA
+# ==================================================
+
+warehouses = [
+    "New York",
+    "Chicago",
+    "Dallas"
+]
+
+stock_ranges = {
+    "Accessories": (50, 300),
+    "Computer": (5, 50),
+    "Audio": (20, 150),
+    "Office": (10, 100),
+    "Networking": (15, 120)
+}
+
+inventory = []
+
+inventory_id = 1
+
+for product in products:
+
+    product_id = product[0]
+    category = product[2]
+
+    selected_warehouses = random.sample(
+        warehouses,
+        random.randint(1, 3)
+    )
+
+    minimum_stock, maximum_stock = stock_ranges[category]
+
+    for warehouse in selected_warehouses:
+
+        stock_quantity = random.randint(
+            minimum_stock,
+            maximum_stock
+        )
+
+        inventory_record = (
+            inventory_id,
+            product_id,
+            warehouse,
+            stock_quantity
+        )
+
+        inventory.append(inventory_record)
+
+        inventory_id += 1
+
+print("Inventory records generated:", len(inventory))
+print(inventory)
+
+product_inventory_counts = {}
+
+for record in inventory:
+    product_id = record[1]
+
+    if product_id not in product_inventory_counts:
+        product_inventory_counts[product_id] = 0
+
+    product_inventory_counts[product_id] += 1
+
+print("Inventory records by product:")
+print(product_inventory_counts)
+
+# ==================================================
+# INSERT INVENTORY
+# ==================================================
+
+#cursor = connection.cursor()
+
+#for record in inventory:
+#    cursor.execute("""
+#        INSERT INTO inventory
+#            (
+#                inventory_id,
+#                product_id,
+#                warehouse,
+#                stock_quantity
+#            )
+#        VALUES (%s, %s, %s, %s)
+#    """, record)
+
+#connection.commit()
+
+#print("All inventory records inserted successfully!")
+
+#cursor.close()
+#connection.close()
+
+#print("Database connection closed.")
+
+# ==================================================
+# SALES DATA
+# ==================================================
+
+from datetime import date, timedelta
+
+sales = []
+
+sale_id = 1
+
+today = date.today()
+start_date = today - timedelta(days=89)
+
+# First, guarantee every product has at least one sale
+for product in products:
+
+    product_id = product[0]
+    category = product[2]
+
+    sale_date = start_date + timedelta(
+        days=random.randint(0, 89)
+    )
+
+    if category == "Accessories":
+        quantity = random.randint(1, 10)
+
+    elif category == "Computer":
+        quantity = random.randint(1, 3)
+
+    elif category == "Audio":
+        quantity = random.randint(1, 6)
+
+    elif category == "Office":
+        quantity = random.randint(1, 5)
+
+    else:
+        quantity = random.randint(1, 8)
+
+    sale = (
+        sale_id,
+        product_id,
+        sale_date,
+        quantity
+    )
+
+    sales.append(sale)
+    sale_id += 1
+
+
+# Generate the remaining sales randomly
+while len(sales) < 200:
+
+    product = random.choice(products)
+
+    product_id = product[0]
+    category = product[2]
+
+    sale_date = start_date + timedelta(
+        days=random.randint(0, 89)
+    )
+
+    if category == "Accessories":
+        quantity = random.randint(1, 10)
+
+    elif category == "Computer":
+        quantity = random.randint(1, 3)
+
+    elif category == "Audio":
+        quantity = random.randint(1, 6)
+
+    elif category == "Office":
+        quantity = random.randint(1, 5)
+
+    else:
+        quantity = random.randint(1, 8)
+
+    sale = (
+        sale_id,
+        product_id,
+        sale_date,
+        quantity
+    )
+
+    sales.append(sale)
+    sale_id += 1
+
+
+print("Sales records generated:", len(sales))
+print(sales)
+
+# ==================================================
+# VALIDATE SALES DATA
+# ==================================================
+
+product_sales_counts = {}
+
+for sale in sales:
+    product_id = sale[1]
+
+    if product_id not in product_sales_counts:
+        product_sales_counts[product_id] = 0
+
+    product_sales_counts[product_id] += 1
+
+print("Sales records by product:")
+print(product_sales_counts)
+
+# ==================================================
+# INSERT SALES
+# ==================================================
+
+cursor = connection.cursor()
+
+for sale in sales:
+    cursor.execute("""
+        INSERT INTO sales
+            (
+                sale_id,
+                product_id,
+                sale_date,
+                quantity
+            )
+        VALUES (%s, %s, %s, %s)
+    """, sale)
+
+connection.commit()
+
+print("All sales records inserted successfully!")
+
+cursor.close()
+connection.close()
+
+print("Database connection closed.")
 
 
 # ==================================================
 # CLOSE DATABASE CONNECTION
 # ==================================================
 
-cursor.close()
-connection.close()
+#cursor.close()
+#connection.close()
 
 print("Database connection closed.")

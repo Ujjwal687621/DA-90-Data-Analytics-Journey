@@ -1,3 +1,42 @@
+## Day 15 – Inventory Analytics Dataset & SQL Analysis
+
+Completed the core Inventory Analytics dataset and began business-focused SQL analysis.
+
+### Database
+
+- Suppliers: 10
+- Products: 25
+- Inventory: 51
+- Sales: 200
+
+### Completed
+
+- Generated realistic inventory data using warehouse-specific distribution.
+- Generated 200 sales transactions.
+- Ensured every product has inventory.
+- Ensured every product has sales activity.
+- Validated generated data before database insertion.
+- Analyzed inventory using JOIN, GROUP BY, SUM, and COUNT.
+- Created inventory classifications using CASE.
+- Practiced CTEs for higher-level aggregation.
+
+### SQL Concepts
+
+- INNER JOIN
+- GROUP BY
+- SUM()
+- COUNT()
+- CASE
+- CTE
+- Functional dependency in PostgreSQL
+- Understanding table grain
+
+### Key Takeaway
+
+The project is transitioning from data generation toward business-focused SQL analysis.
+
+**Status:** ✅ Completed
+
 ## Day 14 – Inventory Product Data Generation
 
 Today I continued the Inventory Analytics project by generating and loading product data using Python and PostgreSQL.
