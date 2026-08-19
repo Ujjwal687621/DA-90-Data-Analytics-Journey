@@ -1,5 +1,37 @@
 # Changelog
 
+## Day 15 - Inventory Analytics Dataset & SQL Analysis
+
+### Added
+
+- Added realistic inventory data.
+- Added 200 sales transactions.
+- Added inventory validation.
+- Added sales validation.
+- Added inventory stock classification.
+- Added CTE-based inventory summary analysis.
+
+### Learned
+
+- Defining table grain.
+- Generating realistic business data.
+- Validating data before database insertion.
+- Aggregating inventory to product level.
+- Using CASE with aggregate functions.
+- Using CTEs for multi-step analysis.
+- Understanding PostgreSQL functional dependencies.
+
+### Database Progress
+
+- Suppliers: 10
+- Products: 25
+- Inventory: 51
+- Sales: 200
+
+### Next
+
+Analyze inventory and sales together to identify fast-moving products and potential inventory risks.
+
 ## Day 14 - Inventory Product Data Generation
 
 ### Added
