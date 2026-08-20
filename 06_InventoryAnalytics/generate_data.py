@@ -1,10 +1,28 @@
 import random
+from datetime import date, timedelta
+
 import psycopg2
 
 
-# ==================================================
+# ============================================================
+# DATABASE CONNECTION
+# ============================================================
+
+connection = psycopg2.connect(
+    host="localhost",
+    database="postgres",
+    user="ujjwalpoudel",
+    password="DA90PY"
+)
+
+print("Database connection successful!")
+
+cursor = connection.cursor()
+
+
+# ============================================================
 # SUPPLIER DATA
-# ==================================================
+# ============================================================
 
 supplier_names = [
     "Everest Electronics",
@@ -35,6 +53,7 @@ supplier_countries = [
 suppliers = []
 
 for i in range(1, 11):
+
     supplier = (
         i,
         supplier_names[i - 1],
@@ -44,11 +63,12 @@ for i in range(1, 11):
     suppliers.append(supplier)
 
 
-# ==================================================
+# ============================================================
 # PRODUCT DEFINITIONS
-# ==================================================
+# ============================================================
 
 product_names = {
+
     "Accessories": [
         "Wireless Mouse",
         "USB-C Cable",
@@ -56,6 +76,7 @@ product_names = {
         "Webcam Cover",
         "Mouse Pad"
     ],
+
     "Computer": [
         "Business Laptop",
         "Gaming Laptop",
@@ -63,6 +84,7 @@ product_names = {
         "Mini PC",
         "Workstation"
     ],
+
     "Audio": [
         "Bluetooth Speaker",
         "Wireless Headphones",
@@ -70,6 +92,7 @@ product_names = {
         "USB Microphone",
         "Wireless Earbuds"
     ],
+
     "Office": [
         "Office Chair",
         "Desk Lamp",
@@ -77,6 +100,7 @@ product_names = {
         "Monitor Arm",
         "Keyboard Tray"
     ],
+
     "Networking": [
         "Wi-Fi Router",
         "Network Switch",
@@ -87,11 +111,12 @@ product_names = {
 }
 
 
-# ==================================================
+# ============================================================
 # CATEGORY PRICE RANGES
-# ==================================================
+# ============================================================
 
 category_prices = {
+
     "Accessories": (5, 75),
     "Computer": (50, 1500),
     "Audio": (20, 500),
@@ -100,20 +125,24 @@ category_prices = {
 }
 
 
-# ==================================================
-# CREATE UNIQUE PRODUCT LIST
-# ==================================================
+# ============================================================
+# CREATE PRODUCT LIST
+# ============================================================
 
 all_products = []
 
 for category in product_names:
+
     for product_name in product_names[category]:
-        all_products.append((product_name, category))
+
+        all_products.append(
+            (product_name, category)
+        )
 
 
-# ==================================================
+# ============================================================
 # GENERATE PRODUCTS
-# ==================================================
+# ============================================================
 
 products = []
 
@@ -121,7 +150,7 @@ for i in range(1, 26):
 
     product_name, category = all_products[i - 1]
 
-    # Ensure every supplier receives at least one product.
+    # Guarantee every supplier receives at least one product.
     if i <= 10:
         supplier_id = i
     else:
@@ -130,7 +159,10 @@ for i in range(1, 26):
     minimum_price, maximum_price = category_prices[category]
 
     unit_price = round(
-        random.uniform(minimum_price, maximum_price),
+        random.uniform(
+            minimum_price,
+            maximum_price
+        ),
         2
     )
 
@@ -145,15 +177,16 @@ for i in range(1, 26):
     products.append(product)
 
 
-# ==================================================
-# VALIDATE GENERATED DATA
-# ==================================================
+# ============================================================
+# VALIDATE PRODUCTS
+# ============================================================
 
 print(f"Generated products: {len(products)}")
 
 supplier_counts = {}
 
 for product in products:
+
     supplier_id = product[3]
 
     if supplier_id not in supplier_counts:
@@ -165,46 +198,9 @@ print("Products by supplier:")
 print(supplier_counts)
 
 
-# ==================================================
-# CONNECT TO POSTGRESQL
-# ==================================================
-
-connection = psycopg2.connect(
-    host="localhost",
-    database="postgres",
-    user="ujjwalpoudel",
-    password="DA90PY"
-)
-
-print("Database connection successful!")
-
-
-# ==================================================
-# INSERT PRODUCTS
-# ==================================================
-
-#cursor = connection.cursor()
-
-#for product in products:
-#    cursor.execute("""
-#        INSERT INTO products
-#            (
-#                product_id,
-#                product_name,
- #               category,
- #               supplier_id,
-#                unit_price
-#            )
-#        VALUES (%s, %s, %s, %s, %s)
-##    """, product)
-
-connection.commit()
-
-#print("All products inserted successfully!")
-
-# ==================================================
+# ============================================================
 # INVENTORY DATA
-# ==================================================
+# ============================================================
 
 warehouses = [
     "New York",
@@ -213,6 +209,7 @@ warehouses = [
 ]
 
 stock_ranges = {
+
     "Accessories": (50, 300),
     "Computer": (5, 50),
     "Audio": (20, 150),
@@ -254,12 +251,16 @@ for product in products:
 
         inventory_id += 1
 
-print("Inventory records generated:", len(inventory))
-print(inventory)
+
+print(
+    "Inventory records generated:",
+    len(inventory)
+)
 
 product_inventory_counts = {}
 
 for record in inventory:
+
     product_id = record[1]
 
     if product_id not in product_inventory_counts:
@@ -270,47 +271,35 @@ for record in inventory:
 print("Inventory records by product:")
 print(product_inventory_counts)
 
-# ==================================================
-# INSERT INVENTORY
-# ==================================================
 
-#cursor = connection.cursor()
-
-#for record in inventory:
-#    cursor.execute("""
-#        INSERT INTO inventory
-#            (
-#                inventory_id,
-#                product_id,
-#                warehouse,
-#                stock_quantity
-#            )
-#        VALUES (%s, %s, %s, %s)
-#    """, record)
-
-#connection.commit()
-
-#print("All inventory records inserted successfully!")
-
-#cursor.close()
-#connection.close()
-
-#print("Database connection closed.")
-
-# ==================================================
+# ============================================================
 # SALES DATA
-# ==================================================
-
-from datetime import date, timedelta
+# ============================================================
 
 sales = []
 
 sale_id = 1
 
 today = date.today()
+
 start_date = today - timedelta(days=89)
 
-# First, guarantee every product has at least one sale
+
+# Sales quantity ranges by category
+sales_ranges = {
+
+    "Accessories": (1, 10),
+    "Computer": (1, 3),
+    "Audio": (1, 6),
+    "Office": (1, 5),
+    "Networking": (1, 8)
+}
+
+
+# ------------------------------------------------------------
+# Guarantee every product has at least one sale
+# ------------------------------------------------------------
+
 for product in products:
 
     product_id = product[0]
@@ -320,20 +309,12 @@ for product in products:
         days=random.randint(0, 89)
     )
 
-    if category == "Accessories":
-        quantity = random.randint(1, 10)
+    minimum_quantity, maximum_quantity = sales_ranges[category]
 
-    elif category == "Computer":
-        quantity = random.randint(1, 3)
-
-    elif category == "Audio":
-        quantity = random.randint(1, 6)
-
-    elif category == "Office":
-        quantity = random.randint(1, 5)
-
-    else:
-        quantity = random.randint(1, 8)
+    quantity = random.randint(
+        minimum_quantity,
+        maximum_quantity
+    )
 
     sale = (
         sale_id,
@@ -343,10 +324,14 @@ for product in products:
     )
 
     sales.append(sale)
+
     sale_id += 1
 
 
-# Generate the remaining sales randomly
+# ------------------------------------------------------------
+# Generate remaining sales
+# ------------------------------------------------------------
+
 while len(sales) < 200:
 
     product = random.choice(products)
@@ -358,20 +343,12 @@ while len(sales) < 200:
         days=random.randint(0, 89)
     )
 
-    if category == "Accessories":
-        quantity = random.randint(1, 10)
+    minimum_quantity, maximum_quantity = sales_ranges[category]
 
-    elif category == "Computer":
-        quantity = random.randint(1, 3)
-
-    elif category == "Audio":
-        quantity = random.randint(1, 6)
-
-    elif category == "Office":
-        quantity = random.randint(1, 5)
-
-    else:
-        quantity = random.randint(1, 8)
+    quantity = random.randint(
+        minimum_quantity,
+        maximum_quantity
+    )
 
     sale = (
         sale_id,
@@ -381,19 +358,24 @@ while len(sales) < 200:
     )
 
     sales.append(sale)
+
     sale_id += 1
 
 
-print("Sales records generated:", len(sales))
-print(sales)
+print(
+    "Sales records generated:",
+    len(sales)
+)
 
-# ==================================================
-# VALIDATE SALES DATA
-# ==================================================
+
+# ============================================================
+# VALIDATE SALES
+# ============================================================
 
 product_sales_counts = {}
 
 for sale in sales:
+
     product_id = sale[1]
 
     if product_id not in product_sales_counts:
@@ -404,39 +386,111 @@ for sale in sales:
 print("Sales records by product:")
 print(product_sales_counts)
 
-# ==================================================
+
+# ============================================================
+# RESET EXISTING DATA
+# ============================================================
+
+print("Clearing existing data...")
+
+cursor.execute("DELETE FROM sales;")
+cursor.execute("DELETE FROM inventory;")
+cursor.execute("DELETE FROM products;")
+cursor.execute("DELETE FROM suppliers;")
+
+print("Existing data cleared.")
+
+
+# ============================================================
+# INSERT SUPPLIERS
+# ============================================================
+
+cursor.executemany(
+    """
+    INSERT INTO suppliers
+        (
+            supplier_id,
+            supplier_name,
+            country
+        )
+    VALUES (%s, %s, %s)
+    """,
+    suppliers
+)
+
+
+# ============================================================
+# INSERT PRODUCTS
+# ============================================================
+
+cursor.executemany(
+    """
+    INSERT INTO products
+        (
+            product_id,
+            product_name,
+            category,
+            supplier_id,
+            unit_price
+        )
+    VALUES (%s, %s, %s, %s, %s)
+    """,
+    products
+)
+
+
+# ============================================================
+# INSERT INVENTORY
+# ============================================================
+
+cursor.executemany(
+    """
+    INSERT INTO inventory
+        (
+            inventory_id,
+            product_id,
+            warehouse,
+            stock_quantity
+        )
+    VALUES (%s, %s, %s, %s)
+    """,
+    inventory
+)
+
+
+# ============================================================
 # INSERT SALES
-# ==================================================
+# ============================================================
 
-cursor = connection.cursor()
+cursor.executemany(
+    """
+    INSERT INTO sales
+        (
+            sale_id,
+            product_id,
+            sale_date,
+            quantity
+        )
+    VALUES (%s, %s, %s, %s)
+    """,
+    sales
+)
 
-for sale in sales:
-    cursor.execute("""
-        INSERT INTO sales
-            (
-                sale_id,
-                product_id,
-                sale_date,
-                quantity
-            )
-        VALUES (%s, %s, %s, %s)
-    """, sale)
+
+# ============================================================
+# COMMIT TRANSACTION
+# ============================================================
 
 connection.commit()
 
-print("All sales records inserted successfully!")
+print("All data inserted successfully!")
+
+
+# ============================================================
+# CLOSE DATABASE CONNECTION
+# ============================================================
 
 cursor.close()
 connection.close()
-
-print("Database connection closed.")
-
-
-# ==================================================
-# CLOSE DATABASE CONNECTION
-# ==================================================
-
-#cursor.close()
-#connection.close()
 
 print("Database connection closed.")

@@ -1,5 +1,36 @@
 # Changelog
 
+## Day 16 - Inventory & Sales Analysis
+
+### Added
+
+- Added product sales-volume analysis.
+- Added product revenue analysis.
+- Added revenue-per-unit calculation.
+- Added inventory summary CTE.
+- Added sales summary CTE.
+- Added stock coverage calculation.
+- Added inventory status classification.
+- Added high-demand and critical-inventory filtering.
+
+### Learned
+
+- Comparing sales volume and revenue.
+- Using NULLIF() to prevent division-by-zero errors.
+- Using ROUND() and ::numeric for decimal calculations.
+- Aggregating data before joining to prevent row multiplication.
+- Using multiple CTEs for structured analysis.
+- Creating business metrics from raw data.
+- Translating SQL results into business recommendations.
+
+### Business Insight
+
+Mesh Wi-Fi System was identified as a high-demand product with critical stock coverage of 1.55 and should be prioritized for inventory review.
+
+### Status
+
+Day 16 complete.
+
 ## Day 15 - Inventory Analytics Dataset & SQL Analysis
 
 ### Added

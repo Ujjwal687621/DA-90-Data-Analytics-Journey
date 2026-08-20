@@ -1,3 +1,49 @@
+## Day 16 – Inventory & Sales Analysis
+
+Moved from dataset generation into business-focused SQL analysis.
+
+### Completed
+
+- Analyzed products by total units sold.
+- Analyzed product revenue.
+- Compared sales volume with revenue.
+- Calculated revenue per unit.
+- Built inventory and sales summary CTEs.
+- Learned why aggregation should occur before joining multiple one-to-many tables.
+- Calculated stock coverage.
+- Classified products as Critical, Monitor, or Healthy.
+- Identified high-demand products with critical inventory coverage.
+- Translated SQL results into a business recommendation.
+
+### Key SQL Concepts
+
+- `LEFT JOIN`
+- `SUM()`
+- `GROUP BY`
+- `ORDER BY`
+- `COALESCE()`
+- `NULLIF()`
+- `ROUND()`
+- `::numeric`
+- `CASE`
+- Common Table Expressions (CTEs)
+- Aggregation before joining
+
+### Business Insight
+
+The analysis identified **Mesh Wi-Fi System** as a high-demand product with critical stock coverage:
+
+- Units sold: 73
+- Total stock: 113
+- Stock coverage: 1.55
+- Status: Critical
+
+Based on these indicators, the product should be prioritized for inventory review and potential replenishment.
+
+### Status
+
+**Day 16 Complete** ✅
+
 ## Day 15 – Inventory Analytics Dataset & SQL Analysis
 
 Completed the core Inventory Analytics dataset and began business-focused SQL analysis.
