@@ -1,5 +1,45 @@
 # Changelog
 
+## Day 17 - Sales Trend & Purchase Behavior Analysis
+
+### Added
+
+- Added monthly sales trend analysis.
+- Added product-level monthly sales analysis.
+- Added category-level sales analysis.
+- Added transaction-level purchase behavior analysis.
+- Added average units per transaction metric.
+- Added June → July decline analysis.
+- Added July → August trend analysis.
+
+### Learned
+
+- Using `DATE_TRUNC()` for time-based aggregation.
+- Comparing sales across months.
+- Drilling down from business-level trends to categories and products.
+- Distinguishing transaction volume from units per transaction.
+- Using `COUNT()` and `SUM()` together for behavioral analysis.
+- Quantifying contribution to an overall decline.
+- Recognizing data limitations and avoiding unsupported causal conclusions.
+
+### Business Insight
+
+Overall unit sales declined 35.8% from June to July.
+
+Accessories, Audio, and Networking accounted for 87.7% of the decline.
+
+Mouse Pad, Bluetooth Speaker, and Ethernet Adapter were major product-level contributors and collectively accounted for 68.75% of the decline in sales transactions.
+
+Sales continued to decline into August, with transaction volume falling substantially while average units per transaction remained approximately stable.
+
+### Next
+
+Day 18 will introduce conditional aggregation for side-by-side period comparisons.
+
+### Status
+
+Day 17 complete.
+
 ## Day 16 - Inventory & Sales Analysis
 
 ### Added
