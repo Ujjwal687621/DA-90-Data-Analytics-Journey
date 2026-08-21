@@ -1,3 +1,50 @@
+## Day 17 – Sales Trend & Purchase Behavior Analysis
+
+Investigated the decline in sales after June using SQL.
+
+### Completed
+
+- Built monthly sales trend analysis using `DATE_TRUNC()`.
+- Analyzed monthly sales by product.
+- Analyzed monthly sales by category.
+- Quantified the June → July sales decline.
+- Drilled down from category to product-level performance.
+- Introduced transaction-level analysis.
+- Calculated average units per transaction.
+- Investigated whether declining sales were associated with fewer transactions or smaller transaction quantities.
+- Compared July and August sales trends.
+
+### Key Findings
+
+- Unit sales declined **35.8%** from June to July.
+- Accessories, Audio, and Networking accounted for **87.7%** of the decline.
+- Mouse Pad, Bluetooth Speaker, and Ethernet Adapter were major product-level contributors.
+- These three products accounted for **68.75%** of the decline in sales transactions from June to July.
+- Sales continued to decline into August.
+- July → August transactions declined from **61 to 36**, while average units per transaction remained approximately stable.
+
+### Key SQL Concepts
+
+- `DATE_TRUNC()`
+- `COUNT()`
+- `SUM()`
+- `NULLIF()`
+- `LEFT JOIN`
+- `GROUP BY`
+- `ORDER BY`
+- Monthly aggregation
+- Product-level drill-down
+- Category-level drill-down
+- Transaction analysis
+
+### Next
+
+Day 18 will introduce **conditional aggregation** to compare periods side-by-side.
+
+### Status
+
+**Day 17 Complete** ✅
+
 ## Day 16 – Inventory & Sales Analysis
 
 Moved from dataset generation into business-focused SQL analysis.
