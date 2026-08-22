@@ -1,5 +1,33 @@
 # Changelog
 
+## Day 18 - Conditional Aggregation & Period Comparison
+
+### Added
+
+- Added July vs. August transaction comparison.
+- Added conditional aggregation analysis.
+- Added product-level transaction change analysis.
+- Added transaction status classification.
+
+### Learned
+
+- Conditional aggregation using `SUM(CASE WHEN ... THEN 1 ELSE 0 END)`.
+- Using CTEs for multi-step analysis.
+- Calculating period-over-period changes.
+- Using CASE to classify results.
+
+### Business Insight
+
+July → August transactions declined by 25.
+
+15 of 25 products (60%) experienced declining transaction activity.
+
+Wireless Mouse, Mesh Wi-Fi System, and Business Laptop accounted for 52% of the overall transaction decline.
+
+### Status
+
+Day 18 complete.
+
 ## Day 17 - Sales Trend & Purchase Behavior Analysis
 
 ### Added

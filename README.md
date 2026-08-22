@@ -1,3 +1,34 @@
+## Day 18 – Conditional Aggregation & Period Comparison
+
+Continued the sales decline investigation by comparing July and August transaction activity by product.
+
+### Completed
+
+- Learned conditional aggregation using `SUM(CASE WHEN ... THEN 1 ELSE 0 END)`.
+- Compared July and August transactions side-by-side.
+- Used CTEs to calculate period-over-period changes.
+- Classified products as Declined, No Change, or Increased.
+- Investigated the breadth and concentration of the transaction decline.
+
+### Key Findings
+
+- July → August transactions declined by **25**.
+- Wireless Mouse, Mesh Wi-Fi System, and Business Laptop accounted for **52%** of the decline.
+- **15 of 25 products (60%)** experienced declining transaction activity.
+- 5 products increased and 5 remained unchanged.
+
+### Key SQL Concepts
+
+- `CASE`
+- Conditional aggregation
+- `SUM(CASE WHEN ... THEN 1 ELSE 0 END)`
+- CTEs
+- Period-over-period comparison
+
+### Status
+
+**Day 18 Complete** ✅
+
 ## Day 17 – Sales Trend & Purchase Behavior Analysis
 
 Investigated the decline in sales after June using SQL.
