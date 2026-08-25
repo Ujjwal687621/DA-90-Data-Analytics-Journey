@@ -1,3 +1,46 @@
+## Day 19 – Percentage Change, Purchase Behavior & Inventory Investigation
+
+Continued the July → August sales decline investigation.
+
+### Completed
+
+- Calculated percentage change alongside absolute transaction change.
+- Compared relative severity vs. business impact.
+- Investigated Wireless Mouse purchase behavior.
+- Compared transactions, units sold, and average units per transaction.
+- Investigated inventory as a possible explanation for zero August sales.
+- Identified a limitation caused by the lack of inventory dates.
+
+### Key Findings
+
+- Wireless Mouse declined from **5 transactions and 30 units in July to 0 transactions and 0 units in August**.
+- July average units per transaction was **6**.
+- Current inventory records show **269 units** across New York and Dallas.
+- Inventory is not timestamped, so the available data cannot definitively establish August stock availability.
+
+### Key SQL Concepts
+
+- Percentage change
+- `NULLIF()`
+- `COALESCE()`
+- Conditional aggregation
+- CTEs
+- Purchase behavior analysis
+
+### Business Insight
+
+Absolute change helps measure business impact, while percentage change measures relative severity.
+
+Wireless Mouse experienced a complete loss of transaction activity, but the available inventory data does not support concluding that the product was out of stock.
+
+### Next Session
+
+Investigate whether customer demand shifted toward other products that experienced increased transaction activity in August.
+
+### Status
+
+**Day 19 Complete** ✅
+
 ## Day 18 – Conditional Aggregation & Period Comparison
 
 Continued the sales decline investigation by comparing July and August transaction activity by product.
