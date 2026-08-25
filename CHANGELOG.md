@@ -1,5 +1,31 @@
 # Changelog
 
+## Day 19 - Percentage Change, Purchase Behavior & Inventory Investigation
+
+### Added
+
+- Added July → August transaction percentage change analysis.
+- Added purchase behavior analysis for Wireless Mouse.
+- Added inventory availability investigation.
+
+### Learned
+
+- Percentage change vs. absolute change.
+- `NULLIF()` and `COALESCE()` for safe percentage calculations.
+- Conditional aggregation for units and transactions.
+- Average units per transaction.
+- Identifying limitations in source data.
+
+### Business Insight
+
+Wireless Mouse experienced a 100% transaction decline from July to August.
+
+Current inventory records show 269 units across New York and Dallas, but inventory is not timestamped, so August stock availability cannot be definitively established.
+
+### Status
+
+Day 19 complete.
+
 ## Day 18 - Conditional Aggregation & Period Comparison
 
 ### Added
