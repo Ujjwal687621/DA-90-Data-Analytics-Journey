@@ -1,5 +1,53 @@
 # Changelog
 
+## Day 20 - Demand Shift & Purchase Behavior Analysis
+
+### Added
+
+- Added product-level July → August transaction analysis.
+- Added category-level transaction analysis.
+- Added Accessories and Networking drill-down analysis.
+- Added business-wide transaction percentage change.
+- Added business-wide unit percentage change.
+- Added average units per transaction analysis.
+- Added product-level purchase behavior analysis.
+- Added change in average units per transaction.
+
+### Key Findings
+
+- Transactions declined 41.0% from July to August.
+- Units sold declined 38.7%.
+- Average units per transaction increased approximately 3.9%.
+- All product categories experienced transaction declines.
+- Accessories and Networking accounted for 72% of the total transaction decline.
+- Wireless Mouse was the largest Accessories contributor.
+- Mesh Wi-Fi System was the largest Networking contributor.
+- No strong evidence of a broad demand shift was identified.
+
+### Learned
+
+- Absolute vs. percentage change.
+- Business-level vs. category-level vs. product-level analysis.
+- Conditional aggregation.
+- Purchase behavior analysis.
+- Average units per transaction.
+- Distinguishing transaction volume from purchase quantity.
+- Separating hypotheses from evidence.
+
+### Next
+
+Day 21:
+
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- PARTITION BY
+- Ranking products within categories.
+
+### Status
+
+Day 20 complete.
+
 ## Day 19 - Percentage Change, Purchase Behavior & Inventory Investigation
 
 ### Added

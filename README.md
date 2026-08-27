@@ -1,3 +1,65 @@
+## Day 20 – Demand Shift & Purchase Behavior Analysis
+
+Continued the July → August sales decline investigation.
+
+### Completed
+
+- Tested the demand-shift hypothesis.
+- Compared product-level transaction changes.
+- Compared category-level transaction changes.
+- Investigated Accessories and Networking.
+- Calculated business-wide transaction decline.
+- Compared July vs. August units sold.
+- Calculated average units per transaction.
+- Investigated product-level purchase behavior.
+
+### Key Findings
+
+- Total transactions declined from **61 to 36**, a **41.0% decrease**.
+- Total units sold declined from **204 to 125**, a **38.7% decrease**.
+- Average units per transaction increased from **3.34 to 3.47**, approximately **3.9%**.
+- All five product categories experienced declining transaction activity.
+- Accessories declined by **11 transactions**.
+- Networking declined by **7 transactions**.
+- Accessories and Networking accounted for **18 of the 25 lost transactions, or 72% of the total decline**.
+- Wireless Mouse was the largest Accessories contributor at **-5 transactions**.
+- Mesh Wi-Fi System was the largest Networking contributor at **-4 transactions**.
+
+### Business Insight
+
+The July → August transaction decline appears broad-based rather than the result of a broad demand shift.
+
+Although transaction activity declined by 41.0%, average units per transaction increased slightly, indicating that the remaining transactions were marginally larger on average.
+
+Product-level purchase behavior varied, demonstrating that transaction volume, total units, and average units per transaction should be analyzed together.
+
+### Key SQL Concepts
+
+- Conditional aggregation
+- CTEs
+- CASE
+- COALESCE()
+- NULLIF()
+- Percentage change
+- Absolute change
+- Product-level analysis
+- Category-level analysis
+- Business-level aggregation
+- Average units per transaction
+
+### Next
+
+Day 21 will introduce window functions:
+
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- PARTITION BY
+
+### Status
+
+**Day 20 Complete**
+
 ## Day 19 – Percentage Change, Purchase Behavior & Inventory Investigation
 
 Continued the July → August sales decline investigation.
