@@ -1,5 +1,38 @@
 # Changelog
 
+## Day 21 — Window Functions & Category-Level Analysis
+
+### Added
+
+- Day 21 learning journal
+- Day 21 advanced SQL practice
+- Window function exercises
+- Category-level product performance analysis
+
+### SQL Concepts Added
+
+- `ROW_NUMBER()`
+- `RANK()`
+- `DENSE_RANK()`
+- `PARTITION BY`
+- Window-based `AVG()`
+- Multiple CTEs
+- Percentage comparison calculations
+- Within-category ranking
+
+### Analysis Added
+
+- August transaction summary by product
+- Category average transaction calculation
+- Product vs. category average comparison
+- Percentage variance from category average
+- Ranking products within categories
+- Identification of products performing furthest below category average
+
+### Learning Progress
+
+Day 21 represents continued progression from foundational SQL toward practical analytical SQL and business-focused data analysis.
+
 ## Day 20 - Demand Shift & Purchase Behavior Analysis
 
 ### Added
