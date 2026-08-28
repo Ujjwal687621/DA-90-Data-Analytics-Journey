@@ -1,3 +1,46 @@
+## Day 21 — Window Functions & Category Analysis
+
+Day 21 focused on advanced SQL analysis using window functions and Common Table Expressions.
+
+### Concepts Practiced
+
+- `ROW_NUMBER()`
+- `RANK()`
+- `DENSE_RANK()`
+- `PARTITION BY`
+- Window functions
+- Category-level averages
+- Product performance comparison
+- Percentage variance from category averages
+- Ranking products within categories
+- Multiple CTEs
+- Business-oriented SQL analysis
+
+### Practical Analysis
+
+Using the Ujjsha Retail dataset, we analyzed August transaction performance by product and category.
+
+We calculated:
+
+- Total August transactions
+- Average transactions within each category
+- Difference between product transactions and category average
+- Percentage difference from category average
+- Rank of each product within its category
+- Lowest-performing product relative to its category average
+
+### Key Learning
+
+Day 21 introduced the transition from simply retrieving and aggregating data toward performing analytical comparisons.
+
+Window functions allowed us to calculate category-level metrics while retaining individual product rows.
+
+This is an important SQL skill for real-world Data Analyst work.
+
+### Progress
+
+**Day 21 completed.**
+
 ## Day 20 – Demand Shift & Purchase Behavior Analysis
 
 Continued the July → August sales decline investigation.
