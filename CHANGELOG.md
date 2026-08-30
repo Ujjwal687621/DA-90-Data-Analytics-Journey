@@ -1,5 +1,36 @@
 # Changelog
 
+## Day 22 – Category-Level Impact Analysis
+**Date:** 2026-08-29
+
+### Added
+- Added `01_SQL/Day22_Category_Impact_Analysis.sql`
+- Added `09_LearningJournal/Day22.md`
+
+### Analysis
+- Extended July vs. August transaction analysis from product level to category level.
+- Identified 9 products meeting the decline criteria.
+- Aggregated flagged products by category.
+- Calculated flagged product counts.
+- Calculated total transaction decline by category.
+- Calculated July transaction baselines for flagged products.
+- Calculated category-level percentage declines.
+
+### Key Insight
+- Accessories had the largest absolute transaction decline at 12 transactions.
+- Computer had the largest relative decline at 100%.
+- Demonstrated the importance of evaluating both absolute impact and percentage change when interpreting business performance.
+
+### Concepts Practiced
+- CTEs
+- `SUM()`
+- `COUNT()`
+- `GROUP BY`
+- Percentage change
+- Absolute vs. relative impact
+- Category-level aggregation
+- Business interpretation
+
 ## Day 21 — Window Functions & Category-Level Analysis
 
 ### Added
