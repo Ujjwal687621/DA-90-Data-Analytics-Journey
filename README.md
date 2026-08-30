@@ -1,3 +1,40 @@
+### Day 22 – Category-Level Impact Analysis
+
+**Focus:** Category-level business impact analysis
+
+Today I extended the July vs. August transaction analysis from the product level to the category level.
+
+#### Work Completed
+
+- Compared July and August transaction performance
+- Calculated transaction change
+- Calculated percentage change
+- Identified significantly declining products using business thresholds
+- Counted flagged products by category
+- Calculated total transaction decline by category
+- Calculated the July transaction baseline for flagged products
+- Compared absolute transaction decline with relative percentage decline
+- Practiced interpreting business impact using multiple metrics
+
+#### Key Learning
+
+Percentage change should not be interpreted without considering the underlying baseline.
+
+Computer had the largest relative decline at 100%, while Accessories had the largest absolute transaction decline with 12 fewer transactions.
+
+This demonstrated the importance of considering both relative severity and absolute business impact when evaluating performance.
+
+#### Key SQL Concepts
+
+- CTEs
+- `SUM()`
+- `COUNT()`
+- `GROUP BY`
+- `NULLIF()`
+- Percentage calculations
+- Category-level aggregation
+- Business-oriented SQL analysis
+
 ## Day 21 — Window Functions & Category Analysis
 
 Day 21 focused on advanced SQL analysis using window functions and Common Table Expressions.
