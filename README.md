@@ -1,3 +1,52 @@
+## Day 23 — Project #1 SQL Analysis Complete
+
+### Completed
+
+Day 23 completed the SQL analysis for Project #1.
+
+Today's analysis focused on month-over-month transaction performance using the `LAG()` window function.
+
+### SQL Skills Practiced
+
+- CTEs
+- Window functions
+- `LAG()`
+- `PARTITION BY`
+- Month-over-month analysis
+- Transaction change calculations
+- Percentage change
+- `NULLIF()`
+- Category-level aggregation
+- Business-focused analysis
+
+### Key Findings
+
+9 products met the significant-decline criteria:
+
+- Transaction change <= -2
+- Percentage change <= -50%
+
+Category impact:
+
+| Category    | Flagged Products | July Transactions | Transaction Change | % Change |
+| ----------- | ---------------: | ----------------: | -----------------: | -------: |
+| Accessories |                4 |                14 |                -12 |   -85.7% |
+| Computer    |                2 |                 6 |                 -6 |  -100.0% |
+| Office      |                2 |                 7 |                 -5 |   -71.4% |
+| Networking  |                1 |                 5 |                 -4 |   -80.0% |
+
+### Business Insight
+
+Computer had the largest percentage decline at 100%.
+
+Accessories had the largest overall impact, with 4 flagged products and a decline of 12 transactions from a July baseline of 14.
+
+### Project #1 Status
+
+**SQL Analysis: Complete**
+
+The next step is to transform the analysis into a portfolio-ready reporting project before moving into the next major phase of the DA-90 journey.
+
 ### Day 22 – Category-Level Impact Analysis
 
 **Focus:** Category-level business impact analysis

@@ -1,5 +1,51 @@
 # Changelog
 
+## 2026-08-31 — Day 23
+
+### Added
+
+- Added Day 23 month-over-month transaction analysis.
+- Added SQL window-function practice using LAG().
+- Added previous-month transaction comparison by product.
+- Added month-over-month transaction change calculation.
+- Added percentage-change calculation using NULLIF().
+- Added significant-decline filtering based on established business rules.
+- Added category-level impact analysis.
+- Added validation of Day 22 findings using a different SQL approach.
+- Added Day 23 learning journal.
+
+### Key Results
+
+Identified 9 significant-decline products.
+
+Category-level impact:
+
+- Accessories: 4 flagged products, -12 transactions, -85.7%
+- Computer: 2 flagged products, -6 transactions, -100%
+- Office: 2 flagged products, -5 transactions, -71.4%
+- Networking: 1 flagged product, -4 transactions, -80%
+
+### Business Insight
+
+Computer experienced the largest percentage decline at -100%.
+
+Accessories experienced the largest absolute transaction decline at -12 transactions and had the highest number of flagged products.
+
+Therefore, Accessories represents the most significant overall category-level impact.
+
+### Learning
+
+Practiced:
+
+- LAG()
+- PARTITION BY
+- Window functions
+- Month-over-month analysis
+- Percentage change
+- NULLIF()
+- CTEs
+- Business-oriented SQL analysis
+
 ## Day 22 – Category-Level Impact Analysis
 **Date:** 2026-08-29
 
