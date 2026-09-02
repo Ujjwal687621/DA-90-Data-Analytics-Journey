@@ -1,0 +1,26 @@
+product_id,product_name,category,supplier_id,unit_price
+1,Wireless Mouse,Accessories,1,62.84
+2,USB-C Cable,Accessories,2,17.24
+3,Laptop Stand,Accessories,3,38.27
+4,Webcam Cover,Accessories,4,71.17
+5,Mouse Pad,Accessories,5,31.46
+6,Business Laptop,Computer,6,146.37
+7,Gaming Laptop,Computer,7,1107.20
+8,Desktop Computer,Computer,8,1387.44
+9,Mini PC,Computer,9,844.86
+10,Workstation,Computer,10,718.81
+11,Bluetooth Speaker,Audio,10,233.04
+12,Wireless Headphones,Audio,1,358.79
+13,Soundbar,Audio,4,487.70
+14,USB Microphone,Audio,10,176.19
+15,Wireless Earbuds,Audio,9,250.32
+16,Office Chair,Office,1,282.30
+17,Desk Lamp,Office,9,25.28
+18,Standing Desk,Office,4,191.24
+19,Monitor Arm,Office,2,250.25
+20,Keyboard Tray,Office,9,62.20
+21,Wi-Fi Router,Networking,9,147.08
+22,Network Switch,Networking,6,341.92
+23,Wi-Fi Extender,Networking,10,519.55
+24,Ethernet Adapter,Networking,7,486.94
+25,Mesh Wi-Fi System,Networking,7,472.01
