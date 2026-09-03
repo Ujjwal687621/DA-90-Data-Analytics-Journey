@@ -1,5 +1,31 @@
 # Changelog
 
+## [2026-09-02] — Day 24: Excel Sales Analysis
+
+### Added
+- Recovered and verified Project 1 retail datasets from PostgreSQL.
+- Added CSV datasets to `08_Datasets/`.
+- Loaded sales and product data into Excel.
+- Created `SalesTable` and `ProductsTable`.
+- Added product and category information using XLOOKUP.
+- Created PivotTables for category and monthly sales analysis.
+- Added July-to-August unit and percentage change analysis.
+- Added product decline filtering and category drill-down analysis.
+
+### Findings
+- Total units sold: 742.
+- July units: 204.
+- August units: 125.
+- July-to-August decline: 79 units.
+- Accessories had the largest category decline: -53 units.
+- Networking declined by 23 units.
+- Computer declined by 10 units.
+- Wireless Mouse was the largest individual product decline: -30 units.
+- The five largest declining products accounted for approximately 89.9% of the overall July-to-August decline.
+
+### Next
+- Investigate potential root causes behind the major product declines, including inventory, pricing, supplier activity, and customer purchasing behavior.
+
 ## 2026-08-31 — Day 23
 
 ### Added

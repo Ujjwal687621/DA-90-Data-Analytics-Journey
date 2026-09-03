@@ -1,3 +1,63 @@
+## Day 24 — Excel Sales Analysis
+
+Day 24 extended Project 1 from PostgreSQL/SQL analysis into Excel.
+
+### Completed
+
+- Recovered the existing PostgreSQL retail tables.
+- Exported the source tables to CSV.
+- Verified the datasets in `08_Datasets/`.
+- Loaded sales and products data into Excel.
+- Created `SalesTable` and `ProductsTable`.
+- Used XLOOKUP to enrich sales data with product name and category.
+- Verified all lookups.
+- Created PivotTables for category and monthly sales analysis.
+- Calculated July-to-August unit changes.
+- Calculated percentage changes.
+- Applied decline filters.
+- Drilled from category-level performance into product-level drivers.
+- Identified the major contributors to the July-to-August decline.
+
+### Key Results
+
+Total units sold:
+
+742
+
+July units:
+
+204
+
+August units:
+
+125
+
+July-to-August change:
+
+-79 units
+
+Largest category declines:
+
+- Accessories: -53
+- Networking: -23
+- Computer: -10
+
+Largest product declines:
+
+- Wireless Mouse: -30
+- Mesh Wi-Fi System: -18
+- Wi-Fi Router: -11
+- Business Laptop: -7
+- Desktop Computer: -5
+
+These five products accounted for approximately 89.9% of the overall July-to-August decline.
+
+### Business Insight
+
+The decline was highly concentrated rather than evenly distributed across the product portfolio.
+
+The next stage of Project 1 will investigate the potential causes of the decline, including pricing, inventory availability, supplier activity, and customer purchasing behavior.
+
 ## Day 23 — Project #1 SQL Analysis Complete
 
 ### Completed
