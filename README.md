@@ -1,3 +1,30 @@
+## Day 25 — Retail Sales Root Cause Investigation
+
+### Focus
+Continued the Ujjsha Retail Sales portfolio project in Excel by investigating the July-to-August sales decline.
+
+### Work Completed
+- Added and analyzed the inventory dataset using `InventoryTable`.
+- Used `XLOOKUP` to connect inventory records with product names.
+- Troubleshot product ID data-type issues using `VALUE()`.
+- Built inventory PivotTables by product and warehouse.
+- Investigated current inventory levels for major declining products.
+- Compared July vs. August transaction volume and units sold.
+- Analyzed transaction changes by category and product.
+- Investigated changes in product mix.
+
+### Key Findings
+- Units sold declined from **204 in July to 125 in August (-38.7%)**.
+- Transactions declined from **61 to 36 (-41.0%)**.
+- Units per transaction increased from **3.34 to 3.47 (+3.9%)**.
+- **Accessories and Networking accounted for 72% of the lost transactions.**
+- Major declining products also experienced significant transaction declines.
+- **Office Chair increased from 2 to 23 units**, representing **18.4% of August unit sales**.
+- Current inventory does not support insufficient inventory as an obvious explanation, although historical inventory data is unavailable.
+
+### Analyst Takeaway
+The July-to-August decline appears to be primarily driven by **fewer transactions rather than smaller transaction sizes**, with the decline concentrated in Accessories and Networking. August also showed a significant shift in product mix. Additional customer, pricing, promotion, marketing, and historical inventory data would be required to determine the underlying cause of the transaction decline.
+
 ## Day 24 — Excel Sales Analysis
 
 Day 24 extended Project 1 from PostgreSQL/SQL analysis into Excel.
