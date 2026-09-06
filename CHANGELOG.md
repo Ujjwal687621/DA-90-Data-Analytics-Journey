@@ -1,5 +1,41 @@
 # Changelog
 
+## [Day 26] — Retail Revenue Analysis & Business Recommendations
+
+### Added
+- Added unit price to SalesTable using XLOOKUP.
+- Added calculated revenue column to SalesTable.
+- Created monthly revenue PivotTable.
+- Created revenue-per-transaction analysis.
+- Created revenue-per-unit analysis.
+- Created category-level revenue analysis.
+- Created product-level revenue drill-down.
+- Created average unit-price analysis.
+- Created product-mix analysis.
+- Added business recommendations based on the analysis.
+
+### Analysis
+- July revenue: $57,237.81.
+- August revenue: $42,551.47.
+- Revenue declined by $14,686.34 (-25.66%).
+- Transactions declined by 40.98%.
+- Units sold declined by 38.73%.
+- Units per transaction increased by 3.9%.
+- Revenue per transaction increased by 25.97%.
+- Revenue per unit increased by 21.32%.
+- Computer and Networking accounted for approximately 90.44% of the net revenue decline.
+- Mesh Wi-Fi System was the largest individual revenue loss at -$8,496.18.
+- Desktop Computer was the second-largest individual revenue loss at -$6,937.20.
+- Office revenue increased by 42.76%.
+- Office Chair represented 18.4% of August unit sales.
+- Major declining products examined maintained stable unit prices between July and August.
+
+### Findings
+- The revenue decline appears primarily associated with lower transaction volume and unit volume rather than price reductions.
+- August showed a shift toward higher-value transactions and a different product mix.
+- Networking and Computer categories require the highest-priority investigation.
+- Additional customer, marketing, promotion, and historical inventory data would be required to establish the underlying cause of the transaction decline.
+
 ## [Day 25] — Retail Sales Root Cause Investigation
 
 ### Added

@@ -1,3 +1,44 @@
+## Day 26 — Retail Revenue Analysis & Business Recommendations
+
+### Focus
+Extended the Ujjsha Retail Sales portfolio project from unit and transaction analysis into revenue analysis and business recommendations.
+
+### Work Completed
+- Added `unit_price` to SalesTable using XLOOKUP.
+- Created a calculated `revenue` field.
+- Analyzed monthly revenue using PivotTables.
+- Compared July and August revenue.
+- Analyzed revenue by category.
+- Drilled down into product-level revenue.
+- Compared average unit prices.
+- Calculated revenue per transaction and revenue per unit.
+- Investigated product-mix changes.
+- Developed evidence-based business recommendations.
+
+### Key Findings
+- July revenue: **$57,237.81**
+- August revenue: **$42,551.47**
+- Revenue declined **25.66%**.
+- Transactions declined **40.98%**.
+- Units sold declined **38.73%**.
+- Revenue per transaction increased **25.97%**.
+- Revenue per unit increased **21.32%**.
+- Computer and Networking accounted for approximately **90.44% of the net revenue decline**.
+- Mesh Wi-Fi System was the largest individual revenue loss.
+- Office revenue increased **42.76%**.
+- Office Chair represented **18.4% of August unit sales**.
+
+### Analyst Takeaway
+The July-to-August revenue decline appears to be primarily a transaction-volume issue rather than a pricing issue. August transactions were fewer but higher in average value, indicating a meaningful shift in product mix.
+
+The analysis identified Mesh Wi-Fi System, Desktop Computer, and the Networking category as high-priority areas for further investigation while also identifying Office products and Wi-Fi Extender as potential areas of positive performance worth understanding and replicating.
+
+### Portfolio Documentation
+Updated:
+- `Project1_Excel_Analysis.md`
+- `Project1_Excel_Methodology.md`
+- `Project1_Business_Findings.md`
+
 ## Day 25 — Retail Sales Root Cause Investigation
 
 ### Focus
