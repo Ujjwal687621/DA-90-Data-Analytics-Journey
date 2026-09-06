@@ -283,3 +283,179 @@ Category performance
 to
 
 Product-level drivers.
+
+## Day 26 — Revenue Analysis Methodology
+
+### Objective
+
+Extend the Excel analysis from transaction and unit volume into revenue analysis and business impact.
+
+### Step 1 — Add Unit Price
+
+The SalesTable did not originally contain product pricing.
+
+A `unit_price` column was added using XLOOKUP against ProductsTable.
+
+Formula:
+
+=XLOOKUP(VALUE([@product_id]),ProductsTable[product_id],ProductsTable[unit_price],"Not Found")
+
+The VALUE function was used to ensure consistent numeric data types for the product ID lookup.
+
+### Step 2 — Calculate Revenue
+
+A calculated `revenue` column was added to SalesTable.
+
+Formula:
+
+=[@quantity]*[@unit_price]
+
+This calculated revenue at the individual sales-record level.
+
+### Step 3 — Monthly Revenue PivotTable
+
+A PivotTable was created with:
+
+Rows:
+- `sale_date` grouped by Month
+
+Values:
+- Sum of `revenue`
+
+This produced monthly revenue totals and allowed July and August to be compared.
+
+### Step 4 — Revenue Change
+
+Revenue change was calculated as:
+
+August Revenue - July Revenue
+
+July revenue:
+
+$57,237.81
+
+August revenue:
+
+$42,551.47
+
+Revenue change:
+
+-$14,686.34
+
+Revenue percentage change was calculated as:
+
+(August Revenue - July Revenue) / July Revenue
+
+Result:
+
+-25.66%
+
+### Step 5 — Revenue Per Transaction
+
+Revenue per transaction was calculated as:
+
+Total Revenue / Total Transactions
+
+July:
+
+$57,237.81 / 61 = $938.32
+
+August:
+
+$42,551.47 / 36 = $1,181.99
+
+Percentage change:
+
++25.97%
+
+### Step 6 — Revenue Per Unit
+
+Revenue per unit was calculated as:
+
+Total Revenue / Total Units Sold
+
+July:
+
+$57,237.81 / 204 = $280.58
+
+August:
+
+$42,551.47 / 125 = $340.41
+
+Percentage change:
+
++21.32%
+
+### Step 7 — Category Revenue Analysis
+
+A PivotTable was created with:
+
+Rows:
+- `category`
+
+Columns:
+- Month
+
+Values:
+- Sum of `revenue`
+
+Additional columns were used to calculate:
+
+- Revenue Change
+- Revenue % Change
+
+This identified which categories contributed most to the overall revenue decline.
+
+### Step 8 — Product-Level Revenue Drill-Down
+
+A category-to-product hierarchy was created using:
+
+Rows:
+- `category`
+- `product_name`
+
+Columns:
+- Month
+
+Values:
+- Sum of `revenue`
+
+This allowed the Computer and Networking categories to be investigated at the individual product level.
+
+### Step 9 — Average Unit Price Analysis
+
+A PivotTable was created with:
+
+Rows:
+- `product_name`
+
+Columns:
+- Month
+
+Values:
+- Average of `unit_price`
+
+This was used to determine whether changes in product pricing contributed to revenue changes.
+
+### Step 10 — Product Mix Analysis
+
+July and August unit sales were compared at the product level.
+
+This identified products that increased or decreased in unit volume and helped explain why revenue per transaction and revenue per unit increased in August.
+
+### Analytical Approach
+
+The analysis followed a progressive drill-down:
+
+Overall revenue
+→ Transaction volume
+→ Units sold
+→ Revenue per transaction
+→ Revenue per unit
+→ Category revenue
+→ Product revenue
+→ Unit pricing
+→ Product mix
+→ Business recommendations
+
+This approach helped distinguish between volume effects, pricing effects, and product-mix effects while avoiding unsupported causal conclusions.

@@ -343,3 +343,80 @@ Further analysis should investigate:
 Project 1 Excel analysis completed for Day 24.
 
 The next phase is root-cause investigation of the major declining products.
+
+## Day 26 — Revenue Analysis
+
+### July vs. August Revenue
+
+Revenue was added to the sales analysis by first bringing `unit_price` into `SalesTable` using XLOOKUP and then calculating revenue as quantity multiplied by unit price.
+
+| Metric                |       July |     August |      Change | % Change |
+| --------------------- | ---------: | ---------: | ----------: | -------: |
+| Transactions          |         61 |         36 |         -25 |  -40.98% |
+| Units Sold            |        204 |        125 |         -79 |  -38.73% |
+| Units / Transaction   |       3.34 |       3.47 |       +0.13 |    +3.9% |
+| Revenue               | $57,237.81 | $42,551.47 | -$14,686.34 |  -25.66% |
+| Revenue / Transaction |    $938.32 |  $1,181.99 |    +$243.66 |  +25.97% |
+| Revenue / Unit        |    $280.58 |    $340.41 |     +$59.83 |  +21.32% |
+
+The analysis shows that August experienced a substantial decline in transactions and units sold, but the average value of each transaction and each unit increased.
+
+### Revenue by Category
+
+| Category    | July Revenue | August Revenue | Revenue Change | Revenue % Change |
+| ----------- | -----------: | -------------: | -------------: | ---------------: |
+| Accessories |    $3,257.14 |        $701.98 |     -$2,555.16 |          -78.45% |
+| Audio       |    $8,096.37 |      $6,943.71 |     -$1,152.66 |          -14.24% |
+| Computer    |   $19,694.50 |     $12,907.99 |     -$6,786.51 |          -34.46% |
+| Networking  |   $20,800.13 |     $14,303.65 |     -$6,496.48 |          -31.23% |
+| Office      |    $5,389.67 |      $7,694.14 |     +$2,304.47 |          +42.76% |
+| Grand Total |   $57,237.81 |     $42,551.47 |    -$14,686.34 |          -25.66% |
+
+Computer and Networking together accounted for approximately 90.44% of the net revenue decline.
+
+Office was the only category to increase revenue, growing by 42.76%.
+
+### Product-Level Revenue Findings
+
+The largest individual revenue declines occurred in:
+
+- Mesh Wi-Fi System: -$8,496.18
+- Desktop Computer: -$6,937.20
+- Wi-Fi Router: -$1,617.88
+- Gaming Laptop: -$1,107.20
+- Business Laptop: -$1,024.59
+
+Several products offset part of the decline:
+
+- Wi-Fi Extender: +$4,156.40
+- Workstation: +$1,437.62
+- Mini PC: +$844.86
+- Ethernet Adapter: +$486.94
+
+Mesh Wi-Fi System and Desktop Computer alone lost $15,433.38 in revenue, which exceeded the net decline because other products partially offset the losses.
+
+### Pricing Analysis
+
+For major declining products that generated sales in both months, average unit prices remained unchanged:
+
+- Gaming Laptop: $1,107.20
+- Mesh Wi-Fi System: $472.01
+- Wi-Fi Router: $147.08
+
+This suggests that lower sales volume, rather than price reductions, was the primary driver of the revenue declines for the products examined.
+
+### Product Mix
+
+August showed a meaningful change in product mix.
+
+Office Chair increased from 2 units in July to 23 units in August and represented 18.4% of August unit sales.
+
+Wi-Fi Extender, USB Microphone, Workstation, Mini PC, and several other products also increased their unit sales.
+
+The analysis therefore indicates that August was not a universal decline across all products. Instead, sales shifted toward a different product mix.
+
+### Analytical Conclusion
+
+The July-to-August revenue decline was primarily associated with fewer transactions and lower unit volume. However, the higher revenue per transaction and revenue per unit indicate that the remaining August transactions were weighted toward higher-value products.
+
+The analysis identifies where revenue declined and which products contributed most to the decline, but additional customer, marketing, promotion, and historical inventory data would be required to determine the underlying business cause.
