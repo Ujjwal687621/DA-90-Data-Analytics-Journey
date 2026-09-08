@@ -1,5 +1,44 @@
 # Changelog
 
+## Day 27 — Business Storytelling & Validation
+
+### Completed
+
+- Completed July-to-August KPI interpretation for Ujjsha Retail.
+- Validated transaction, unit, revenue, revenue-per-transaction, and revenue-per-unit changes.
+- Identified Computer and Networking as the primary category-level contributors to the revenue decline.
+- Confirmed that Computer and Networking collectively accounted for approximately 90.44% of the net revenue decline.
+- Identified Mesh Wi-Fi System as the largest individual product-level revenue decline.
+- Separated analytical findings into facts, hypotheses, and recommendations.
+- Established three investigation priorities:
+  1. Mesh Wi-Fi System
+  2. Computer and Networking
+  3. Transaction volume and product mix
+- Identified important data gaps required for causal investigation.
+- Developed a potential pricing experiment framework for Mesh Wi-Fi System.
+- Identified competitor price as a benchmark and transaction volume, revenue, and profit/margin as experiment KPIs.
+- Completed the Executive Summary for Portfolio Project #1.
+- Updated Project 1 Excel Analysis documentation.
+- Updated Project 1 Excel Methodology documentation.
+- Updated Project 1 Business Findings documentation.
+- Added Day 27 Learning Journal.
+
+### Key Analytical Insight
+
+Ujjsha Retail experienced a 25.66% revenue decline from July to August while revenue per transaction increased 25.97%.
+
+The decline was primarily driven by lower transaction volume and concentrated weakness in Computer and Networking.
+
+### Next
+
+Day 28 will focus on the Excel Analyst Competency Checkpoint and identify:
+
+- Learned concepts
+- Concepts requiring additional practice
+- Concepts not yet covered
+
+The checkpoint will ensure the Excel phase covers the major skills expected of a Junior Data Analyst before moving into Power BI.
+
 ## [Day 26] — Retail Revenue Analysis & Business Recommendations
 
 ### Added
