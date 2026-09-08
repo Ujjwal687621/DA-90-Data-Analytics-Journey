@@ -1,5 +1,15 @@
 # Changelog
 
+## Day 28 — Excel Analyst Competency Checkpoint
+
+- Completed the Excel Analyst Competency Checkpoint.
+- Reassessed Project #1 Excel skills using the distinction between exposure, practice, and independent competency.
+- Identified Excel foundations, logic, lookup/reference, data cleaning, dates, dynamic arrays, PivotTables, PivotCharts, Power Query, data validation, visualization, and dashboard design as areas requiring additional structured learning.
+- Confirmed analytical thinking and business interpretation as current strengths.
+- Revised the Excel learning phase to continue through Day 35.
+- Established a systematic Learn → Example → Solve → Business Scenario → Ujjsha Application → Explain Reasoning learning approach.
+- Defined Day 29 as Lookup & Reference Mastery.
+
 ## Day 27 — Business Storytelling & Validation
 
 ### Completed
