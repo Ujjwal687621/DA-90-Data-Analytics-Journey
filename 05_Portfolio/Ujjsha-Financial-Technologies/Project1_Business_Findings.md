@@ -1,325 +1,231 @@
-# Project 1 — Business Findings
+# Ujjsha Retail — Project 1 Business Findings
 
 ## Executive Summary
 
-Ujjsha Retail experienced a significant decline in unit sales from July to August.
+Overall revenue declined 25.66% from July to August, accompanied by a 40.98% decrease in transactions and a 38.73% decline in units sold. Despite the decline in overall volume, revenue per transaction increased 25.97% and revenue per unit increased 21.32%, indicating that the average value of transactions increased during August.
 
-July unit sales:
+The revenue decline was primarily concentrated in the Computer and Networking categories, which collectively declined by $13,282.99 and accounted for approximately 90.44% of the net revenue decline.
 
-204
+At the individual product level, Mesh Wi-Fi System experienced the largest revenue decline, decreasing by $8,496.18 as units sold fell from 25 to 7.
 
-August unit sales:
+The Office category was the only category to increase revenue, growing by $2,304.47 and partially offsetting declines elsewhere.
 
-125
+Management should prioritize investigating the decline in Mesh Wi-Fi System sales, the broader deterioration across Computer and Networking, and the decline in transaction volume despite higher revenue per transaction.
 
-Overall change:
-
--79 units
-
-The decline was concentrated in a small number of categories and products rather than being evenly distributed across the business.
+Additional data is required to determine the underlying causes.
 
 ---
 
-## Category-Level Findings
+## Business Problem
 
-### Accessories
+Ujjsha Retail wants to understand why revenue declined from July to August and identify the products and categories contributing most significantly to the decline.
 
-July: 70
+The analysis focuses on:
 
-August: 17
-
-Change: -53
-
-Accessories was the largest contributor to the overall decline.
-
-It represented approximately 67.1% of the total 79-unit decline.
-
-The primary driver was Wireless Mouse.
-
-### Networking
-
-July: 55
-
-August: 32
-
-Change: -23
-
-Networking was the second-largest declining category.
-
-The largest drivers were:
-
-- Mesh Wi-Fi System: -18
-- Wi-Fi Router: -11
-
-The decline was partially offset by:
-
-- Wi-Fi Extender: +8
-- Ethernet Adapter: +1
-
-### Computer
-
-July: 26
-
-August: 16
-
-Change: -10
-
-The largest drivers were:
-
-- Business Laptop: -7
-- Desktop Computer: -5
-
-The decline was partially offset by:
-
-- Mini PC: +1
-- Workstation: +2
-
-### Audio
-
-July: 25
-
-August: 28
-
-Change: +3
-
-Audio increased slightly.
-
-### Office
-
-July: 28
-
-August: 32
-
-Change: +4
-
-Office increased by 4 units.
+- Revenue performance
+- Transaction volume
+- Units sold
+- Revenue per transaction
+- Revenue per unit
+- Category performance
+- Product-level performance
+- Potential areas requiring further investigation
 
 ---
 
-## Major Product-Level Drivers
+## Key KPI Findings
 
-The largest product declines were:
+| KPI                   |       July |     August |  Change |
+| --------------------- | ---------: | ---------: | ------: |
+| Transactions          |         61 |         36 | -40.98% |
+| Units Sold            |        204 |        125 | -38.73% |
+| Revenue               | $57,237.81 | $42,551.47 | -25.66% |
+| Units / Transaction   |       3.34 |       3.47 |  +3.90% |
+| Revenue / Transaction |    $938.32 |  $1,181.99 | +25.97% |
+| Revenue / Unit        |    $280.58 |    $340.41 | +21.32% |
 
-1. Wireless Mouse — -30 units
-2. Mesh Wi-Fi System — -18 units
-3. Wi-Fi Router — -11 units
-4. Business Laptop — -7 units
-5. Desktop Computer — -5 units
+### Interpretation
 
-Combined:
+The primary decline was volume-driven.
 
--71 units
+Transactions and units sold both declined substantially, while revenue per transaction and revenue per unit increased.
 
-Total company decline:
-
--79 units
-
-These five products therefore represented approximately 89.9% of the overall decline.
-
----
-
-## Key Business Insight
-
-The decline is highly concentrated.
-
-Rather than seeing a broad decline across the entire product portfolio, most of the lost unit volume came from a small group of products.
-
-This makes those products the highest-priority candidates for root-cause investigation.
+This indicates that August generated fewer transactions and fewer units overall, but the average transaction and unit were higher in value.
 
 ---
 
-## Recommended Next Investigation
+## Category Findings
 
-The next analysis should investigate why these products declined.
+| Category    |   July Revenue | August Revenue |          Change |    % Change |
+| ----------- | -------------: | -------------: | --------------: | ----------: |
+| Accessories |      $3,257.14 |        $701.98 |      -$2,555.16 |     -78.45% |
+| Audio       |      $8,096.37 |      $6,943.71 |      -$1,152.66 |     -14.24% |
+| Computer    |     $19,694.50 |     $12,907.99 |      -$6,786.51 |     -34.46% |
+| Networking  |     $20,800.13 |     $14,303.65 |      -$6,496.48 |     -31.23% |
+| Office      |      $5,389.67 |      $7,694.14 |      +$2,304.47 |     +42.76% |
+| **Total**   | **$57,237.81** | **$42,551.47** | **-$14,686.34** | **-25.66%** |
 
-Potential factors include:
+### Primary Finding
 
-1. Pricing changes
-2. Inventory availability
-3. Stockouts
-4. Supplier issues
-5. Changes in customer purchasing behavior
-6. Changes in transaction frequency
-7. Product substitution
-8. Differences between transaction count and unit quantity
+Computer and Networking collectively declined by $13,282.99.
 
-The current analysis identifies the problem but does not establish causation.
+These two categories accounted for approximately 90.44% of the overall net revenue decline.
+
+Office was the only category that increased revenue and partially offset declines in the other categories.
 
 ---
 
-## Analyst Conclusion
+## Product-Level Finding
 
-The July-to-August performance decline should not be treated as a uniform company-wide problem.
+### Mesh Wi-Fi System
 
-The strongest evidence points toward a concentrated decline driven primarily by:
+Mesh Wi-Fi System was the largest individual product-level contributor to the revenue decline.
 
-- Accessories
-- Networking
-- Computer
+- July units: 25
+- August units: 7
+- Unit decline: 18
+- July revenue: $11,800.25
+- August revenue: $3,304.07
+- Revenue decline: $8,496.18
 
-and specifically:
+For the major declining products examined, unit prices remained unchanged between July and August. This suggests that lower sales volume was an important contributor to the observed revenue decline.
 
-- Wireless Mouse
+However, the available data does not establish the underlying cause of the volume decline.
+
+---
+
+## Investigation Priorities
+
+### 1. Mesh Wi-Fi System
+
+Investigate why unit sales declined from 25 to 7.
+
+Potential areas of investigation:
+
+- Inventory availability
+- Stockouts
+- Product placement
+- Promotions
+- Pricing
+- Customer purchasing behavior
+- Competitor pricing
+- Product demand
+
+### 2. Computer and Networking
+
+Investigate the broader decline across both categories.
+
+Particular attention should be given to:
+
 - Mesh Wi-Fi System
-- Wi-Fi Router
-- Business Laptop
 - Desktop Computer
+- Business Laptop
+- Gaming Laptop
+- Network Switch
+- Wi-Fi Router
 
-These products should be prioritized for the next stage of investigation.
+### 3. Transaction Volume and Product Mix
 
-## Day 26 — Business Findings & Recommendations
+Transactions declined 40.98%, while revenue per transaction increased 25.97%.
 
-### Executive Finding
+This creates an important business question:
 
-Ujjsha's revenue declined from $57,237.81 in July to $42,551.47 in August, a decrease of $14,686.34 or 25.66%.
+**Why are fewer customers or transactions generating higher-value purchases?**
 
-The primary driver appears to be a sharp decline in transaction volume rather than lower transaction value.
+Further analysis should examine:
 
-Transactions declined by 40.98%, while revenue declined by 25.66%.
-
-At the same time:
-
-- Units per transaction increased by 3.9%.
-- Revenue per transaction increased by 25.97%.
-- Revenue per unit increased by 21.32%.
-
-This indicates that August transactions were, on average, higher-value transactions.
-
-### Key Business Findings
-
-#### 1. Transaction volume is the primary concern
-
-Transactions declined from 61 to 36.
-
-This represents a 40.98% decrease and is the largest overall deterioration identified.
-
-#### 2. Computer and Networking drove most of the revenue decline
-
-Computer revenue declined by $6,786.51.
-
-Networking revenue declined by $6,496.48.
-
-Together, these categories accounted for approximately 90.44% of the net revenue decline.
-
-#### 3. Mesh Wi-Fi System was the largest individual revenue loss
-
-Mesh Wi-Fi System revenue declined by $8,496.18.
-
-Units declined from 25 to 7 while the unit price remained $472.01.
-
-This strongly suggests that the decline was driven by lower volume rather than lower price.
-
-#### 4. Desktop Computer completely stopped generating August revenue
-
-Desktop Computer revenue declined from $6,937.20 to $0.
-
-Units declined from 5 to 0.
-
-This requires further investigation into product availability, demand, or product substitution.
-
-#### 5. Networking performance was mixed
-
-While Mesh Wi-Fi System and Wi-Fi Router declined significantly, Wi-Fi Extender increased by $4,156.40.
-
-This may indicate a shift in customer demand within the Networking category.
-
-#### 6. Office products performed strongly
-
-Office revenue increased by $2,304.47 or 42.76%.
-
-Office Chair increased from 2 units to 23 units and represented 18.4% of August unit sales.
-
-The business should investigate the factors behind this growth.
-
----
-
-## Business Recommendations
-
-### Recommendation 1 — Investigate the transaction decline
-
-Investigate why transaction volume fell by approximately 41%.
-
-Areas for further investigation include:
-
-- Customer activity
-- Website or store traffic
-- Marketing campaigns
+- Customer purchasing behavior
+- Product mix
+- Transaction composition
 - Promotions
 - Product availability
-- Seasonal patterns
-- Competitor activity
+- Pricing changes
 
-**Priority: High**
+---
 
-### Recommendation 2 — Investigate Mesh Wi-Fi System
+## Recommendation
 
-Determine why Mesh Wi-Fi System sales fell from 25 units to 7 units despite a stable unit price.
+Management should prioritize a deeper investigation into the decline in Computer and Networking sales, beginning with Mesh Wi-Fi System.
 
-Questions should include:
+The first step should be to validate whether inventory availability, pricing, promotions, customer behavior, or competitive conditions contributed to the decline.
 
-- Was the product consistently available?
-- Did customers shift toward other networking products?
-- Did promotions or merchandising change?
-- Did competitors introduce alternatives?
-- Did customer demand change?
+For Mesh Wi-Fi System specifically, management should conduct a competitive pricing analysis.
 
-**Priority: High**
+If Ujjsha's price is materially higher than comparable competitors, management could consider a temporary targeted price reduction or promotional offer.
 
-### Recommendation 3 — Investigate Desktop Computer
+The pricing change should be treated as a controlled experiment rather than an immediate permanent price change.
 
-Determine why Desktop Computer sales dropped completely to zero in August.
+---
 
-The investigation should examine:
+## Recommended Pricing Experiment
 
-- Product availability
-- Inventory history
-- Customer demand
-- Product substitution
-- Competitive activity
+### Objective
 
-**Priority: High**
+Determine whether a competitive price adjustment can improve Mesh Wi-Fi System sales volume while maintaining acceptable profitability.
 
-### Recommendation 4 — Investigate Networking product substitution
+### Framework
 
-Compare the decline in Mesh Wi-Fi System and Wi-Fi Router with the growth of Wi-Fi Extender.
+Competitor Pricing
+→ Pricing Decision
+→ Transaction Volume
+→ Revenue
+→ Profit / Gross Margin
 
-The goal is to determine whether customers are shifting toward different networking solutions.
+### Primary KPIs
 
-**Priority: High**
+- Units sold
+- Transaction volume
+- Revenue
+- Gross profit / gross margin
 
-### Recommendation 5 — Investigate Office category growth
+Competitor price should be treated as a benchmark rather than the primary success metric.
 
-Determine what caused Office revenue to increase by 42.76%.
-
-Office Chair should receive particular attention because it increased from 2 to 23 units and represented 18.4% of August unit volume.
-
-If the growth was caused by a promotion, marketing campaign, customer segment, or other identifiable factor, the business could evaluate whether the successful approach can be replicated.
-
-**Priority: Medium**
+Any pricing decision should also consider product margin to ensure that increased sales volume does not result in an unacceptable decline in profitability.
 
 ---
 
 ## Data Limitations
 
-The current analysis cannot establish a definitive root cause because the available data does not include:
+The current dataset supports performance analysis and identification of potential areas for investigation, but it does not establish causation.
+
+The analysis does not currently include:
 
 - Customer IDs
-- Historical inventory snapshots
-- Promotion and discount information
-- Marketing campaign data
+- Historical inventory levels
+- Stockout dates
+- Promotion history
+- Campaign data
+- Actual discount history
 - Website or store traffic
-- Competitor information
+- Competitor pricing
+- Product cost
+- Product margin
 
-The analysis therefore identifies patterns and high-priority areas for investigation rather than claiming a definitive causal explanation.
+These data sources would be required for a stronger root-cause analysis.
 
 ---
 
-## Final Business Conclusion
+## Additional Data Required
 
-The July-to-August decline was primarily a transaction-volume problem.
+1. Historical inventory levels and stockout dates by product and warehouse
+2. Customer-level purchase history
+3. Promotion and campaign history by product, category, and date
+4. Upcoming or scheduled promotions and discounts
+5. Actual selling-price and discount history
+6. Website and/or store traffic
+7. Competitor pricing and promotional information
+8. Product cost and margin information
 
-Fewer transactions and fewer units produced a 25.66% revenue decline, but higher-value transactions and a shift in product mix partially protected revenue.
+---
 
-The most important areas for management attention are transaction volume, Mesh Wi-Fi System, Desktop Computer, and the broader Networking category.
+## Final Business Takeaway
 
-At the same time, the strong performance of Office products and Wi-Fi Extender should be investigated for potential opportunities to replicate successful demand drivers.
+Ujjsha Retail's August revenue decline was primarily associated with lower transaction and unit volume.
+
+The decline was concentrated heavily in Computer and Networking, with those categories accounting for approximately 90.44% of the net revenue decline.
+
+Mesh Wi-Fi System represents the most significant individual product requiring investigation.
+
+The recommended next step is not to assume a single cause, but to validate inventory, customer, promotion, pricing, competitive, and margin data before making a permanent business decision.
+
+A targeted pricing experiment may be appropriate if competitive analysis confirms that Ujjsha's Mesh Wi-Fi System is materially overpriced relative to comparable alternatives.

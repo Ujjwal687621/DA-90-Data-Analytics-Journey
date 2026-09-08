@@ -1,3 +1,36 @@
+## Day 27 — Business Storytelling & Validation
+
+### Ujjsha Retail — Portfolio Project #1
+
+Completed the business storytelling and validation stage of the Excel analysis.
+
+Key work completed:
+
+- Evaluated July vs. August performance using transactions, units sold, revenue, revenue per transaction, and revenue per unit.
+- Identified a 25.66% decline in revenue, driven primarily by declines in transaction and unit volume.
+- Identified Computer and Networking as the primary contributors to the revenue decline.
+- Confirmed that Computer and Networking collectively accounted for approximately 90.44% of the net revenue decline.
+- Identified Mesh Wi-Fi System as the largest individual product-level revenue decline at $8,496.18.
+- Identified Office as the only category with positive revenue growth, increasing by $2,304.47.
+- Separated data-supported facts from hypotheses and recommendations.
+- Established investigation priorities for Mesh Wi-Fi System, Computer and Networking, and transaction volume/product mix.
+- Identified additional data requirements including inventory history, customer behavior, promotions, pricing, competitor data, traffic, and product margin.
+- Developed a potential pricing experiment framework for Mesh Wi-Fi System.
+- Defined transaction volume, sales revenue, and profit/gross margin as key experiment metrics.
+- Completed the Executive Summary for Portfolio Project #1.
+
+### Project 1 Documentation Updated
+
+- `Project1_Excel_Analysis.md`
+- `Project1_Excel_Methodology.md`
+- `Project1_Business_Findings.md`
+- `09_LearningJournal/Day27.md`
+
+### Day 27 Outcome
+
+The Excel analysis progressed from KPI calculation into business interpretation, investigation prioritization, data-gap analysis, and actionable recommendations.
+
+
 ## Day 26 — Retail Revenue Analysis & Business Recommendations
 
 ### Focus
