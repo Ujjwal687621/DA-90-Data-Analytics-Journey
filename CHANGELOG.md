@@ -1,5 +1,17 @@
 # Changelog
 
+## Day 29 — Lookup Fundamentals
+
+- Began systematic Excel lookup training following the Project-First Excel competency reassessment.
+- Covered XLOOKUP, VLOOKUP, HLOOKUP, and LOOKUP fundamentals.
+- Practiced exact and approximate matching, search direction, duplicate-match behavior, and lookup decision-making.
+- Practiced multi-criteria XLOOKUP using multiple conditions.
+- Introduced FILTER for returning multiple matching records.
+- Practiced FILTER with multiple AND conditions.
+- Reinforced the distinction between match mode and search mode.
+- Established that lookup exposure and successful individual exercises do not automatically equal independent mastery.
+- Revised the Excel schedule so Day 30 focuses on Advanced Lookup & Reference and Day 31 focuses on Dynamic Arrays & Data Extraction.
+
 ## Day 28 — Excel Analyst Competency Checkpoint
 
 - Completed the Excel Analyst Competency Checkpoint.

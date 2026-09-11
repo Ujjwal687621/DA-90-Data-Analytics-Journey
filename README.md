@@ -1,3 +1,57 @@
+## Day 29 — Excel Lookup Fundamentals
+
+### Excel Analysis & Reporting
+
+Started the structured Excel learning phase for lookup and reference functions.
+
+Key work completed:
+
+- Learned and practiced XLOOKUP fundamentals, including exact and approximate matching.
+- Practiced VLOOKUP, HLOOKUP, and LOOKUP and compared their use cases.
+- Learned the distinction between match mode and search mode in XLOOKUP.
+- Practiced duplicate-match behavior and first-to-last vs. last-to-first searches.
+- Applied multi-criteria lookup logic using multiple conditions.
+- Introduced FILTER for returning multiple matching records.
+- Practiced combining FILTER conditions using AND logic.
+- Reinforced the distinction between project exposure and independent Excel competency.
+
+### Learning Structure Update
+
+The Lookup & Reference curriculum was divided into smaller learning units to prioritize understanding and hands-on practice.
+
+- **Day 29:** Lookup Fundamentals
+- **Day 30:** Advanced Lookup & Reference
+- **Day 31:** Dynamic Arrays & Data Extraction
+
+### Day 29 Outcome
+
+Established a foundation in Excel lookup and reference functions and identified additional practice required before these skills can be considered independently mastered.
+
+**Next:** Day 30 — Advanced Lookup & Reference.
+
+## Day 28 — Excel Analyst Competency Checkpoint
+
+### Excel Analysis & Reporting
+
+Completed the Excel Analyst Competency Checkpoint following Portfolio Project #1.
+
+Key work completed:
+
+- Reassessed Excel skills based on the distinction between exposure, practice, and independent competency.
+- Identified that many Excel concepts used during Project #1 were learned through project application rather than systematic instruction.
+- Reviewed current competency across Excel foundations, formulas, logic, conditional aggregation, lookups, data cleaning, dates, dynamic arrays, PivotTables, PivotCharts, Power Query, data validation, visualization, and dashboard design.
+- Identified analytical thinking and business interpretation as current strengths.
+- Established areas requiring structured learning and additional hands-on practice.
+- Revised the Excel learning approach to follow:
+  **Learn → Example → Solve → Business Scenario → Ujjsha Application → Explain Reasoning**
+- Extended the structured Excel learning phase through Day 35 to ensure important analyst concepts are properly covered.
+
+### Day 28 Outcome
+
+Established a more accurate baseline of Excel competency and shifted the learning approach from primarily project-first exposure toward structured concept learning combined with practical business application.
+
+**Next:** Day 29 — Lookup Fundamentals.
+
 ## Day 27 — Business Storytelling & Validation
 
 ### Ujjsha Retail — Portfolio Project #1
