@@ -1,5 +1,18 @@
 # Changelog
 
+## Day 30 — Advanced Lookup & Reference
+
+- Continued structured Excel lookup training with INDEX, MATCH, and XMATCH.
+- Practiced INDEX + XMATCH, left-side lookups, dynamic two-way lookups, and multi-criteria lookups.
+- Practiced reverse searches for last-match scenarios using XMATCH.
+- Added IFNA error handling to lookup formulas.
+- Reinforced FILTER for returning multiple matching records.
+- Practiced approximate matching with threshold-based commission scenarios.
+- Reinforced the distinction between match mode and search mode.
+- Practiced selecting lookup functions based on business requirements.
+- Closed the Lookup & Reference section after sufficient hands-on practice.
+- Defined Day 31 as Logic, Conditional Analysis & Data Cleaning.
+
 ## Day 29 — Lookup Fundamentals
 
 - Began systematic Excel lookup training following the Project-First Excel competency reassessment.
