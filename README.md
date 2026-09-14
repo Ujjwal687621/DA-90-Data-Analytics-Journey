@@ -1,3 +1,28 @@
+## Day 30 — Advanced Lookup & Reference
+
+### Excel Analysis & Reporting
+
+Continued structured Excel learning with advanced lookup and reference techniques.
+
+Key work completed:
+
+- Practiced INDEX, MATCH, and XMATCH for position-based lookups.
+- Built INDEX + XMATCH formulas for flexible and left-side lookups.
+- Built dynamic two-way lookups using row and column matching.
+- Practiced multi-criteria lookups using multiple conditions.
+- Practiced last-occurrence lookups using reverse search mode.
+- Applied IFNA for lookup error handling.
+- Reinforced FILTER for returning multiple matching records.
+- Practiced approximate matching using threshold-based business scenarios.
+- Reinforced the distinction between match mode and search mode.
+- Practiced selecting lookup functions based on the business requirement.
+
+### Day 30 Outcome
+
+Completed the structured Lookup & Reference portion of the Excel learning phase with extensive hands-on practice across simple, dynamic, multi-criteria, reverse, two-way, and threshold-based lookup scenarios.
+
+**Next:** Day 31 — Logic, Conditional Analysis & Data Cleaning.
+
 ## Day 29 — Excel Lookup Fundamentals
 
 ### Excel Analysis & Reporting
@@ -21,7 +46,6 @@ The Lookup & Reference curriculum was divided into smaller learning units to pri
 
 - **Day 29:** Lookup Fundamentals
 - **Day 30:** Advanced Lookup & Reference
-- **Day 31:** Dynamic Arrays & Data Extraction
 
 ### Day 29 Outcome
 
