@@ -1,3 +1,28 @@
+## Day 31 — Logic, Conditional Analysis & Data Cleaning
+
+### Excel Analysis & Reporting
+
+Completed structured Excel training focused on logical functions, conditional analysis, and data cleaning.
+
+Key work completed:
+
+- Practiced IF, AND, OR, NOT, and IFS for business-rule classification.
+- Practiced IFERROR and IFNA for Excel error handling.
+- Practiced SUMIF, SUMIFS, COUNTIF, COUNTIFS, AVERAGEIF, and AVERAGEIFS.
+- Practiced COUNTBLANK for identifying missing values.
+- Practiced TRIM, CLEAN, LEFT, RIGHT, MID, LEN, FIND, SEARCH, SUBSTITUTE, REPLACE, and PROPER for text cleaning and transformation.
+- Practiced duplicate identification using business-key reasoning.
+- Practiced systematic Find & Replace techniques.
+- Applied cleaning and conditional analysis to a simulated Ujjsha business dataset.
+- Reinforced the importance of cleaning and validating data before business reporting.
+- Completed an integrated IF + AND business classification exercise.
+
+### Day 31 Outcome
+
+Strengthened Excel competency across logic, conditional aggregation, and data-cleaning workflows. Most Day 31 concepts reached the Strong Practice level through hands-on exercises and business scenarios.
+
+**Next:** Day 32 — Dates, Dynamic Arrays & Advanced Analysis.
+
 ## Day 30 — Advanced Lookup & Reference
 
 ### Excel Analysis & Reporting
