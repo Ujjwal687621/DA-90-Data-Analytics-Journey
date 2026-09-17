@@ -1,3 +1,33 @@
+## Day 32 — Dates, Dynamic Arrays & Advanced Analysis
+
+### Excel Analysis & Reporting
+
+Continued structured Excel learning with date analysis, dynamic arrays, and advanced business analysis techniques.
+
+Key work completed:
+
+- Practiced YEAR, MONTH, DAY, WEEKDAY, TEXT, EDATE, EOMONTH, and WEEKNUM for date analysis.
+- Practiced date arithmetic and month-over-month calculations.
+- Learned to distinguish WEEKDAY from WEEKNUM for reporting purposes.
+- Practiced dynamic arrays using UNIQUE, SORT, SORTBY, FILTER, and SEQUENCE.
+- Practiced FILTER with multiple AND and OR conditions.
+- Learned how spill ranges work and how the `#` operator references an entire spill range.
+- Practiced ranking using RANK.EQ and absolute references.
+- Practiced absolute and percentage growth calculations.
+- Practiced variance analysis using actual versus budget.
+- Practiced contribution analysis using percentage of total revenue.
+- Practiced threshold-based segmentation using nested IF logic.
+- Practiced trend analysis by identifying overall direction and temporary reversals.
+- Practiced anomaly identification and investigation thinking.
+- Applied advanced analysis concepts to Ujjsha Retail business scenarios.
+- Reinforced the analytical workflow:
+  **Calculate → Compare → Interpret → Investigate**
+- Classified YEARFRAC as Nice to Know rather than prioritizing it during the current Excel learning phase.
+
+### Day 32 Outcome
+
+Completed structured learning across dates, dynamic arrays, and advanced analytical techniques, with emphasis on translating Excel calculations into business insights and investigation questions.
+
 ## Day 31 — Logic, Conditional Analysis & Data Cleaning
 
 ### Excel Analysis & Reporting

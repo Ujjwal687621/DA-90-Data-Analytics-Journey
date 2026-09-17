@@ -1,5 +1,26 @@
 # Changelog
 
+## Day 32 — Dates, Dynamic Arrays & Advanced Analysis
+
+- Completed structured Excel training on date and time analysis.
+- Practiced YEAR, MONTH, DAY, WEEKDAY, TEXT, EDATE, EOMONTH, WEEKNUM, and date arithmetic.
+- Practiced month-over-month percentage analysis.
+- Classified YEARFRAC as Nice to Know rather than prioritizing it for the current analyst learning phase.
+- Practiced dynamic arrays using UNIQUE, SORT, SORTBY, FILTER, and SEQUENCE.
+- Practiced FILTER with AND, OR, and combined conditions.
+- Learned spill ranges and the `#` spill-range reference.
+- Practiced ranking using RANK.EQ and absolute references.
+- Practiced absolute growth and percentage growth calculations.
+- Practiced variance analysis using actual versus budget.
+- Practiced contribution analysis using percentage of total revenue.
+- Practiced threshold-based segmentation using nested IF logic.
+- Practiced trend analysis and identification of temporary reversals within broader trends.
+- Practiced anomaly identification and investigation thinking.
+- Applied advanced analysis concepts to Ujjsha Retail business scenarios.
+- Reinforced the analytical workflow: Calculate → Compare → Interpret → Investigate.
+- Completed the Day 32 Excel competency checkpoint with strong practice across the day's topics.
+- Defined Day 33 as PivotTables + PivotCharts.
+
 ## Day 31 — Logic, Conditional Analysis & Data Cleaning
 
 - Completed structured Excel training covering logical functions and conditional analysis.
