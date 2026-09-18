@@ -1,3 +1,8 @@
+### Day 33 — PivotTable & PivotChart Mastery
+- Completed advanced PivotTable analysis including % of Grand Total, Difference From, % Difference From, Top N, sorting, date grouping, Slicers, Timelines, and refresh/validation.
+- Practiced selecting appropriate PivotCharts for categorical comparisons, time trends, and numerical relationships.
+- Strengthened business interpretation and PivotTable validation concepts.
+  
 ## Day 32 — Dates, Dynamic Arrays & Advanced Analysis
 
 ### Excel Analysis & Reporting
