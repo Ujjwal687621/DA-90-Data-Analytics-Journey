@@ -1,5 +1,10 @@
 # Changelog
 
+## Day 33 — PivotTable & PivotChart Mastery
+- Completed DA-90 Day 33: PivotTable & PivotChart Mastery.
+- Covered advanced PivotTable calculations, Top N filtering, date grouping, Slicers, Timelines, PivotCharts, and validation.
+- Established a practical-first approach for future technical learning.
+
 ## Day 32 — Dates, Dynamic Arrays & Advanced Analysis
 
 - Completed structured Excel training on date and time analysis.
