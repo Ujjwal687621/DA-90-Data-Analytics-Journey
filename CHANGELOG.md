@@ -1,5 +1,21 @@
 # Changelog
 
+### Day 34 — Power Query & Data Preparation
+
+- Completed Power Query and data-preparation training.
+- Validated source data types and renamed the Applied Steps accordingly.
+- Practiced filtering, value replacement, text trimming, missing-value inspection, and duplicate inspection.
+- Created `Calculated Revenue`, `Revenue Check`, and `Revenue Status` fields for data validation.
+- Practiced Power Query Merge using `product_id` and a Left Outer join.
+- Connected Power Query Merge to SQL `JOIN` concepts.
+- Learned and practiced the conceptual difference between Merge and Append.
+- Connected Power Query Append to SQL `UNION / UNION ALL`.
+- Refreshed the Power Query workflow and verified the transformed data.
+- Loaded `SalesTable_Clean` and `ProductsTable` back into the Excel workbook.
+- Completed the Day 34 competency checkpoint: **8/8**.
+- **Day 34 status: ✅ Complete**
+- Next: **Day 35 — Excel Dashboard + Excel Sign-Off**
+
 ## Day 33 — PivotTable & PivotChart Mastery
 - Completed DA-90 Day 33: PivotTable & PivotChart Mastery.
 - Covered advanced PivotTable calculations, Top N filtering, date grouping, Slicers, Timelines, PivotCharts, and validation.
