@@ -1,3 +1,22 @@
+### Day 34 — Power Query & Data Preparation
+
+- Completed hands-on Power Query training using the Ujjsha Retail Project #1 workbook.
+- Practiced validating data types and managing Power Query Applied Steps.
+- Practiced filtering rows, replacing values, trimming text, and inspecting missing values and duplicates.
+- Created custom columns for calculated revenue and revenue validation.
+- Created conditional columns for data-quality status.
+- Practiced Power Query Merge using `product_id` with a Left Outer join.
+- Connected Power Query Merge to SQL `JOIN` concepts.
+- Learned the difference between Merge and Append:
+  - Merge adds columns.
+  - Append adds rows.
+- Connected Power Query Append to SQL `UNION / UNION ALL`.
+- Practiced refreshing Power Query transformations.
+- Loaded cleaned queries back into Excel using Close & Load.
+- Completed the Day 34 competency checkpoint with an 8/8 result.
+- **Status: ✅ Complete**
+
+ 
 ### Day 33 — PivotTable & PivotChart Mastery
 - Completed advanced PivotTable analysis including % of Grand Total, Difference From, % Difference From, Top N, sorting, date grouping, Slicers, Timelines, and refresh/validation.
 - Practiced selecting appropriate PivotCharts for categorical comparisons, time trends, and numerical relationships.
