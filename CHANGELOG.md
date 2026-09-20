@@ -1,5 +1,24 @@
 # Changelog
 
+### Day 35 — Excel Dashboard & Excel Sign-Off
+
+- Completed the Portfolio Project #1 Excel dashboard.
+- Built KPI calculations for July vs. August revenue, transactions, units sold, revenue per transaction, revenue per unit, and MoM revenue change.
+- Created a Revenue by Category comparison chart.
+- Created a Product-Level Revenue comparison chart.
+- Added conditional formatting to the KPI Change column.
+- Added and tested the interactive Category slicer.
+- Added Business Findings, Recommended Investigation, and Data Limitations sections.
+- Completed dashboard formatting and visual polish.
+- Configured the dashboard for one-page US Letter Landscape printing.
+- Verified the dashboard print preview as Page 1 of 1.
+- Prepared the dashboard for PDF export as a portfolio presentation artifact.
+- Completed final dashboard validation.
+- **Day 35 status: ✅ Complete**
+- **Excel Phase status: ✅ Complete**
+- Next: **Day 36 — Power BI Fundamentals**
+
+
 ### Day 34 — Power Query & Data Preparation
 
 - Completed Power Query and data-preparation training.
