@@ -1,3 +1,21 @@
+### Day 35 — Excel Dashboard & Excel Sign-Off
+
+- Completed the Portfolio Project #1 Excel dashboard using the July vs. August retail analysis.
+- Built KPI calculations for revenue, transactions, units sold, revenue per transaction, revenue per unit, and MoM revenue change.
+- Created a Revenue by Category comparison chart.
+- Created a Product-Level Revenue comparison chart.
+- Added conditional formatting to KPI percentage changes.
+- Added and tested an interactive Category slicer.
+- Added business findings, recommended investigation, and data limitations.
+- Completed final dashboard formatting and one-page print configuration.
+- Configured the dashboard for US Letter, Landscape, Narrow Margins, and 1-page × 1-page printing.
+- Prepared the dashboard for optional PDF export as a portfolio presentation artifact.
+- Completed the Day 35 Excel dashboard validation.
+- **Status: ✅ Complete**
+- **Excel Phase Status: ✅ Complete**
+- Next: **Day 36 — Power BI Fundamentals**
+
+
 ### Day 34 — Power Query & Data Preparation
 
 - Completed hands-on Power Query training using the Ujjsha Retail Project #1 workbook.
