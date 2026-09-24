@@ -1,5 +1,27 @@
 # Changelog
 
+### Day 36 — Power BI Fundamentals
+
+- Started Phase 3 Power BI training.
+- Imported the Ujjsha Retail Project #1 Excel workbook into Power BI.
+- Learned the Power BI workflow from source through report.
+- Reviewed fact and dimension table concepts.
+- Verified the SalesTable → ProductsTable many-to-one relationship.
+- Learned data grain, cardinality, active relationships, and filter direction.
+- Built a Revenue by Category column chart using Category and Sum of revenue.
+- Practiced tooltips and cross-highlighting.
+- Practiced visual-level filtering using the Filters pane.
+- Investigated an incorrect Power Query source after the initial visual displayed only Computers.
+- Identified that the query was using a Computers-only table instead of the original SalesTable.
+- Corrected the Navigation step to use the complete SalesTable.
+- Removed stale downstream Applied Steps.
+- Applied explicit data types to the corrected SalesTable.
+- Closed and applied the corrected query.
+- Verified the corrected data model and relationship.
+- Completed Day 36 Power BI fundamentals.
+- **Day 36 status: ✅ Complete**
+- Next: **Day 37 — Power BI Filtering, Slicers & Report Interactions**
+
 ### Day 35 — Excel Dashboard & Excel Sign-Off
 
 - Completed the Portfolio Project #1 Excel dashboard.

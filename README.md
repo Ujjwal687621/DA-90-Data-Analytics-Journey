@@ -1,3 +1,25 @@
+### Day 36 — Power BI Fundamentals
+
+- Started Power BI Desktop using the Ujjsha Retail Portfolio Project #1 workbook.
+- Learned the Power BI workflow: Source → Power Query → Model → Calculations → Visuals → Report.
+- Reviewed Report, Data, and Model views.
+- Identified SalesTable as the fact table and ProductsTable as the dimension table.
+- Verified the many-to-one product_id relationship.
+- Learned data grain, cardinality, active relationships, and filter direction.
+- Built a Revenue by Category visual using Category and Sum of revenue.
+- Practiced Power BI tooltips.
+- Practiced cross-highlighting by selecting category data points.
+- Learned and applied visual-level filters through the Filters pane.
+- Troubleshot an incorrect Power Query source that was limiting the dataset to Computers.
+- Corrected the Navigation step to use the original SalesTable containing all categories.
+- Removed stale dependent Applied Steps.
+- Verified data types for the corrected SalesTable.
+- Reapplied the corrected query and verified the data model.
+- Completed Day 36 Power BI fundamentals practice.
+- **Status: ✅ Complete**
+- Next: **Day 37 — Power BI Filtering, Slicers & Report Interactions**
+  
+  
 ### Day 35 — Excel Dashboard & Excel Sign-Off
 
 - Completed the Portfolio Project #1 Excel dashboard using the July vs. August retail analysis.
