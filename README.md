@@ -1,3 +1,19 @@
+### Day 37 — Power BI Filtering, Slicers & Visual Interactions
+
+* Learned the differences between Visual, Page, and Report-level filters.
+* Practiced applying and clearing filters at each scope.
+* Created the first interactive Category slicer.
+* Tested Vertical List, Tile, and Dropdown slicer styles.
+* Practiced Single Select and Multi-Select behavior.
+* Created a Revenue by Category donut chart.
+* Learned cross-highlighting between visuals.
+* Used **Edit Interactions** to test Highlight, Filter, and None behaviors.
+* Verified that a single slicer can control multiple visuals simultaneously.
+* Restored the report to its default interactive state.
+* **Status: ✅ Complete**
+* Next: **Day 38 — Interactive Analysis & Navigation**
+
+
 ### Day 36 — Power BI Fundamentals
 
 - Started Power BI Desktop using the Ujjsha Retail Portfolio Project #1 workbook.
