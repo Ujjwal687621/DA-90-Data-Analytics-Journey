@@ -1,5 +1,21 @@
 # Changelog
 
+### Day 37 — Power BI Filtering, Slicers & Visual Interactions
+
+* Completed Power BI filtering practice.
+* Learned Visual-level, Page-level, and Report-level filters.
+* Created the first Category slicer.
+* Tested Vertical List, Tile, and Dropdown slicer styles.
+* Practiced Single Select and Multi-Select behavior.
+* Created a Revenue by Category donut chart.
+* Practiced cross-highlighting between visuals.
+* Used Edit Interactions to test Highlight, Filter, and None modes.
+* Verified slicer control across multiple visuals.
+* Restored the report to its default interactive state.
+* Completed Day 37 Power BI interaction fundamentals.
+* **Status: ✅ Complete**
+* Next: **Day 38 — Interactive Analysis & Navigation**
+
 ### Day 36 — Power BI Fundamentals
 
 - Started Phase 3 Power BI training.
