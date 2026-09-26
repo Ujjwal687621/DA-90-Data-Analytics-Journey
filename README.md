@@ -1,3 +1,21 @@
+### Day 38 — Power BI Interactive Analysis & Navigation
+
+* Learned when to use Visual, Page, Report filters, and Slicers from an analyst perspective.
+* Improved dashboard layout with a professionally positioned dropdown slicer.
+* Created the first `Category → Product Name` hierarchy.
+* Practiced Drill Down, Drill Up, Go to Next Level, and Expand All.
+* Built and tested a complete hierarchy QA workflow.
+* Learned how Power BI displays hierarchy breadcrumbs inside tooltips.
+* Built a Drill-through report page (`Product Details`).
+* Configured automatic drill-through using `ProductsTable[category]`.
+* Verified automatic Back button behavior.
+* Enhanced and cleaned up visual tooltips.
+* Updated chart titles for better business readability.
+* Learned the Progressive Disclosure dashboard design principle.
+* Built a connected two-page interactive Power BI report.
+* **Status: ✅ Complete**
+* Next: **Day 39 — DAX Measures & Business Calculations**
+
 ### Day 37 — Power BI Filtering, Slicers & Visual Interactions
 
 * Learned the differences between Visual, Page, and Report-level filters.
