@@ -1,3 +1,20 @@
+### Day 39 — DAX Measures & Executive KPI Dashboard
+
+* Learned the difference between Calculated Columns and Measures.
+* Created the first DAX measure using `SUM()`.
+* Built an executive KPI dashboard with five dynamic KPI cards.
+* Created `Total Revenue`, `Total Quantity`, and `Total Transactions`.
+* Built derived measures using `DIVIDE()`.
+* Learned why `DIVIDE()` is preferred over `/`.
+* Experienced DAX Filter Context using the Product Category slicer.
+* Created `Average Selling Price` and `Avg Items / Transaction`.
+* Formatted measures for executive dashboards.
+* Polished dashboard layout with equal-width KPI cards and improved spacing.
+* Sorted category revenue in descending order.
+* Completed Version 1.0 of the Ujjsha Retail Executive Dashboard.
+* **Status: ✅ Complete**
+* Next: **Day 40 — Advanced DAX & CALCULATE()**
+
 ### Day 38 — Power BI Interactive Analysis & Navigation
 
 * Learned when to use Visual, Page, Report filters, and Slicers from an analyst perspective.

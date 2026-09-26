@@ -1,5 +1,22 @@
 # Changelog
 
+### Day 39 — DAX Measures & Executive KPI Dashboard
+
+* Completed DAX Measures training.
+* Created `Total Revenue`, `Total Quantity`, and `Total Transactions` measures.
+* Built `Average Selling Price` using `DIVIDE()`.
+* Created `Average Items per Transaction`.
+* Learned DAX Filter Context through interactive slicer testing.
+* Verified automatic recalculation across all KPI cards.
+* Formatted business measures for executive reporting.
+* Improved dashboard layout with equal-width KPI cards.
+* Renamed the Product Category slicer.
+* Sorted revenue visuals in descending order.
+* Completed Version 1.0 of the Ujjsha Retail Executive Dashboard.
+* **Day 39 status: ✅ Complete**
+* Next: **Day 40 — Advanced DAX & CALCULATE()**
+
+
 ### Day 38 — Power BI Interactive Analysis & Navigation
 
 * Completed Power BI hierarchy training.
