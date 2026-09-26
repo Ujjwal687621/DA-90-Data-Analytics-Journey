@@ -1,5 +1,24 @@
 # Changelog
 
+### Day 38 — Power BI Interactive Analysis & Navigation
+
+* Completed Power BI hierarchy training.
+* Created the `Category → Product Name` hierarchy.
+* Practiced Drill Down, Drill Up, Go to Next Level, and Expand All.
+* Completed hierarchy QA validation.
+* Learned hierarchy breadcrumb behavior inside Power BI tooltips.
+* Removed redundant tooltip fields for cleaner reporting.
+* Built the `Product Details` drill-through page.
+* Configured drill-through using `ProductsTable[category]`.
+* Verified automatic Back button functionality.
+* Enhanced visual tooltips with additional business context.
+* Updated chart titles for improved dashboard clarity.
+* Learned Progressive Disclosure as a dashboard design principle.
+* Completed a professional two-page interactive Power BI report.
+* **Day 38 status: ✅ Complete**
+* Next: **Day 39 — DAX Measures & Business Calculations**
+
+
 ### Day 37 — Power BI Filtering, Slicers & Visual Interactions
 
 * Completed Power BI filtering practice.
