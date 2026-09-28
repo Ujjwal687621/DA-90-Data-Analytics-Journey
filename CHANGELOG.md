@@ -1,5 +1,21 @@
 # Changelog
 
+### Day 40 — Advanced DAX & CALCULATE()
+
+* Completed Advanced DAX training.
+* Learned `CALCULATE()` and advanced filter context.
+* Built `Computer Revenue`.
+* Created a professional `DateTable`.
+* Added Year, Month, and Month Number columns.
+* Created an active DateTable-to-SalesTable relationship.
+* Built `Running Total Revenue`.
+* Corrected `Top Category Revenue` using `ALL()`.
+* Created `Company Revenue`.
+* Built `Revenue Share %`.
+* Completed full QA validation across multiple slicer conditions.
+* **Day 40 status: ✅ Complete**
+* Next: **Day 41 — Time Intelligence & Business Trend Analysis**
+
 ### Day 39 — DAX Measures & Executive KPI Dashboard
 
 * Completed DAX Measures training.

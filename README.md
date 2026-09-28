@@ -1,3 +1,18 @@
+### Day 40 — Advanced DAX & CALCULATE()
+
+* Learned the core DAX function `CALCULATE()`.
+* Built a fixed benchmark measure (`Computer Revenue`).
+* Debugged filter context using the actual data model.
+* Created a professional `DateTable` with Year, Month, and Month Number.
+* Built a Running Total Revenue measure.
+* Learned `FILTER()` and `ALL()` for filter manipulation.
+* Created `Top Category Revenue` using `MAXX()`.
+* Built `Company Revenue` and `Revenue Share %`.
+* Validated every measure using slicer-based QA.
+* Strengthened the Power BI model with a star-schema style Date Table.
+* **Status: ✅ Complete**
+* Next: **Day 41 — Time Intelligence & Business Trend Analysis**
+
 ### Day 39 — DAX Measures & Executive KPI Dashboard
 
 * Learned the difference between Calculated Columns and Measures.
