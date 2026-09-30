@@ -1,5 +1,22 @@
 # Changelog
 
+### Day 41 — Time Intelligence & Executive Trends
+
+* Completed Time Intelligence implementation.
+* Marked `DateTable` as the official Date Table.
+* Built `Previous Month Revenue`.
+* Built `MoM Growth ($)` with `BLANK()` handling.
+* Built `MoM Growth (%)`.
+* Created the Executive Trends page.
+* Switched revenue trends to monthly aggregation.
+* Added conditional KPI formatting.
+* Added executive business insights.
+* Introduced formal QA validation for dashboard measures.
+* Earned the Executive Storytelling Portfolio Badge.
+* **Day 41 status: ✅ Complete**
+* Next: **Day 42 — Product Performance Dashboard**
+
+
 ### Day 40 — Advanced DAX & CALCULATE()
 
 * Completed Advanced DAX training.

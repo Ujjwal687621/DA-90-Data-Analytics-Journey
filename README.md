@@ -1,3 +1,18 @@
+### Day 41 — Time Intelligence & Executive Trends
+
+* Marked `DateTable` as the official calendar.
+* Built `Previous Month Revenue` using `PREVIOUSMONTH()`.
+* Created `MoM Growth ($)` with proper `BLANK()` handling.
+* Created `MoM Growth (%)`.
+* Built the **Executive Trends** report page.
+* Switched trend analysis to monthly aggregation.
+* Added conditional KPI formatting.
+* Added executive storytelling with written business insights.
+* Introduced QA validation for dashboard features.
+* Earned the **Executive Storytelling** Portfolio Badge.
+* **Status: ✅ Complete**
+* Next: **Day 42 — Product Performance Dashboard**
+
 ### Day 40 — Advanced DAX & CALCULATE()
 
 * Learned the core DAX function `CALCULATE()`.
