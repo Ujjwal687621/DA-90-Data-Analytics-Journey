@@ -1,3 +1,25 @@
+### Day 42 — Product Performance Analysis
+
+- Built the Product Performance page for Ujjsha Retail Project #1 in Power BI.
+- Created a product revenue ranking using `RANKX()`.
+- Added `ISINSCOPE()` logic so the Total row does not display a misleading product rank.
+- Identified the Top 5 revenue-producing products.
+- Identified the Bottom 5 revenue-producing products.
+- Calculated Top 5 Product Revenue of **$116.08K**.
+- Calculated Top 5 Revenue Share of **51.62%**.
+- Identified Mesh Wifi System as the highest-revenue product at **$34.46K**.
+- Identified USB-C Cable as the lowest-revenue product at **$362.04**.
+- Calculated a **95.17×** revenue difference between the highest- and lowest-revenue products.
+- Identified Computer and Networking as the categories containing all five Top 5 products.
+- Calculated Computer + Networking Revenue Share of **68.98%**.
+- Practiced `TOPN()`, `ALL()`, `REMOVEFILTERS()`, `ISINSCOPE()`, `RANKX()`, and `DIVIDE()`.
+- Troubleshot DAX filter-context issues involving Top 5 revenue share and category revenue share.
+- Added management-focused interpretation and an Executive Insight section.
+- Documented limitations related to inventory, stockouts, pricing history, promotions, margins, and customer-level data.
+- Completed final Product Performance page QA.
+- **Status: ✅ Complete**
+- Next: **Day 43 — Business Analysis / Additional Portfolio Analysis**
+
 ### Day 41 — Time Intelligence & Executive Trends
 
 * Marked `DateTable` as the official calendar.
