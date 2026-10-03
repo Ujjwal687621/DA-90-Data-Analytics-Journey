@@ -1,5 +1,22 @@
 # Changelog
 
+### Day 44 — Portfolio Project #1 Finalization & QA
+- Finalized the Ujjsha Retail Power BI Portfolio Project #1.
+- Completed full report structure and page-level QA.
+- Validated Executive Summary KPIs and business narrative.
+- Updated Executive Trends measures for dynamic month-based KPI behavior.
+- Validated monthly revenue trend from May through August.
+- Completed Product Performance QA and refined chart titles.
+- Completed Revenue Drivers & Business Investigation QA.
+- Validated the 90.44% Computer + Networking contribution to the August net revenue decline.
+- Fixed Product Details drill-through behavior by changing the drill-through field from Summarized to Not summarized.
+- Tested product-level drill-through and Back navigation successfully.
+- Completed final business storytelling and data-limitations review.
+- Saved the final Power BI file as `Ujjsha_Retail_Dashboard_Final.pbix`.
+- Committed and pushed the final dashboard to GitHub.
+- Final Git commit: `7cb28d6`
+- Portfolio Project #1 marked complete and portfolio-ready.
+
 ### Day 43 — Revenue Drivers & Business Investigation
 
 - Created the Power BI Revenue Drivers & Business Investigation page.
