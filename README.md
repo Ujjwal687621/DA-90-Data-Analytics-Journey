@@ -1,3 +1,20 @@
+### Day 43 — Revenue Drivers & Business Investigation
+
+- Created the Power BI **Revenue Drivers & Business Investigation** page.
+- Investigated the July-to-August revenue decline using category and product-level analysis.
+- Calculated category revenue changes between July and August.
+- Created a category contribution-to-revenue-change measure using DAX filter-context techniques.
+- Used `CALCULATE`, `VAR`, `DIVIDE`, and `REMOVEFILTERS` for revenue driver analysis.
+- Identified Computer and Networking as contributing **90.44%** of the net August revenue decline.
+- Investigated product-level revenue changes within the Computer and Networking categories.
+- Identified Mesh Wi-Fi System and Desktop Computer as the largest product-level declines.
+- Identified products that partially offset the decline, including Wi-Fi Extender and Workstation.
+- Added Executive Insight, Management Investigation, and Data Limitations sections.
+- Intentionally excluded the category revenue-share chart because equivalent category-share analysis already exists on the Executive Summary page.
+- Completed final page layout and QA.
+- **Status: ✅ Complete**
+- Next: **Day 44 — Portfolio Project #1 Finalization / Business Storytelling & QA**
+
 ### Day 42 — Product Performance Analysis
 
 - Built the Product Performance page for Ujjsha Retail Project #1 in Power BI.
