@@ -1,3 +1,4 @@
+import os
 import random
 from datetime import date, timedelta
 
@@ -12,7 +13,7 @@ connection = psycopg2.connect(
     host="localhost",
     database="postgres",
     user="ujjwalpoudel",
-    password="***REMOVED***"
+    password=os.getenv("DA90_DB_PASSWORD")
 )
 
 print("Database connection successful!")
