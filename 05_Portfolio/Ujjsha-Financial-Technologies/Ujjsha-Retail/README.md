@@ -4,9 +4,34 @@
 
 **Project Type:** Data Analytics / Business Intelligence  
 **Industry:** Retail  
-**Primary Tool:** Power BI  
-**Supporting Tools:** SQL, Excel, Git/GitHub  
+**Tools:** SQL, Excel, Power BI, DAX, Git/GitHub 
 **Status:** Complete
+
+---
+
+## Dataset
+
+The project uses a fictional Ujjsha Retail sales dataset created for portfolio analysis.
+
+The dataset contains:
+
+- **200 sales transactions**
+- **25 products**
+- **5 product categories**
+- Sales activity from **May through August 2026**
+
+The sales data includes fields such as:
+
+- Sale ID
+- Product ID
+- Product Name
+- Product Category
+- Sale Date
+- Quantity Sold
+
+The dataset supports analysis of revenue performance, transaction volume, units sold, product performance, category performance, and monthly sales trends.
+
+The dataset is fictional and was created specifically for the DA-90 portfolio project.
 
 ---
 
@@ -18,7 +43,7 @@ The objective of this project was to analyze sales performance, identify the pri
 
 The project follows an end-to-end analytical workflow:
 
-**Data → Cleaning → Analysis → Modeling → DAX → Visualization → Business Findings → Management Investigation**
+SQL Analysis → Excel Analysis & Validation → Power BI Modeling & Visualization → Business Findings → Management Investigation
 
 ---
 
@@ -232,16 +257,17 @@ The report supports interactive filtering, DAX-based KPIs, time-intelligence ana
 
 ## Project Files
 
-| File                                                       | Purpose                      |
-| ---------------------------------------------------------- | ---------------------------- |
-| `Ujjsha-Retail-PowerBI/Ujjsha_Retail_Dashboard_Final.pbix` | Final Power BI report        |
-| `Ujjsha_Retail_Project1.pdf`                               | Excel dashboard PDF          |
-| `Project1_Business_Findings.md`                            | Detailed business analysis   |
-| `Ujjsha-Retail-PowerBI/Executive_Insights.md`              | Executive trend analysis     |
-| `Ujjsha-Retail-PowerBI/Product_Performance_Insights.md`    | Product performance analysis |
-| `Ujjsha-Retail-PowerBI/Revenue_Drivers_Insights.md`        | Revenue driver investigation |
-| `Ujjsha-Retail-PowerBI/Portfolio_QA.md`                    | Final portfolio QA           |
-
+| File                                         | Purpose                      |
+| -------------------------------------------- | ---------------------------- |
+| `Excel/Ujjsha_Retail_Project1.xlsx`          | Excel analysis and dashboard |
+| `Ujjsha_Retail_Project1.pdf`                 | Excel dashboard PDF          |
+| `PowerBI/Ujjsha_Retail_Dashboard_Final.pbix` | Final Power BI report        |
+| `PowerBI/Ujjsha_Retail_Dashboard_v1.0.pbix`  | Power BI v1.0 report         |
+| `Project1_Business_Findings.md`              | Detailed business analysis   |
+| `PowerBI/Executive_Insights.md`              | Executive trend analysis     |
+| `PowerBI/Product_Performance_Insights.md`    | Product performance analysis |
+| `PowerBI/Revenue_Drivers_Insights.md`        | Revenue driver investigation |
+| `PowerBI/Portfolio_QA.md`                    | Final portfolio QA           |
 ---
 
 # Skills Demonstrated
